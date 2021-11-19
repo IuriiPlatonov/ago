@@ -1,0 +1,3267 @@
+{
+	"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.SolrTileFilterBean",
+	"value": {
+		"AVTOR_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_ADM_EDINICIH_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_AKTUALJHNOSTJH_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_AKTUALJHNOSTJH_VERSII_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"ARKHIV_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_BALANSOVIHY_TIP_GM_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_METOD_OPROBOVANIJA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_VID_VIHRABOTKI_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_VID_GORNIHKH_RABOT__OT_RABOTIH__reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_TIP_EHLEMENTA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"VID_ISPOLJHZUEMOY_VOLNIH_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"VID_ISTOCHNIKA_VOZMUJSHENIJA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"VID_KLASSA_VOLNIH_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"VID_KOLONKI_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"VID_OBHHEKTA_LU_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"VID_PROGNOZNOGO_KRITERIJA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"VID_RABOT_LU_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_VID_RABOTIH_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"VID_RAZMERNOSTI_SHHEMKI_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"VID_RAZREZA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"VID_SIHRJHJA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_VID_UCHETA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"VID_CHASTOTIH_VOLNIH_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_OE_VLADELJHCA_LIC_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"VSE_SKVAZHINIH_boo_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_GORNAJA_VIHRABOTKA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_VID_PERIODA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_SOSTAV_METODA_OPROBOVANIJA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"DATA_OKONCHANIJA_GORNOY_RABOTIH__OT_RABOTIH__reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_DOBIHCHNOE_POLE_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"VID_DOKUMENTA_O_LIC_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_EHLEMENT_DOBIHCHNOGO_POLJA_DOP_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_ZHVK_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_POLJHZOVATELJA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_ZALEZHJH_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_ZNACHENIE_KHARAKTERISTIKI_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_ISSLEDOVANIE_INKLINOMETRIJA_GOR_SKV_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_REZULJHTAT_ISSLEDOVANIJA_GIS_GORNOY_SKVAZHINIH_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_ISSLEDOVANIE_GIS_GORNOY_SKVAZHINIH_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_KATEGORIJU_GORNIHKH_RABOT__OT_RABOTIH__reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_KATEGORIJU_RABOT_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_KACHESTVENNUJU_KHARAKTERISTIKU_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"AVTOR_VIHGRUZKI_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"STATUS_KLASSIFIKACII_boo_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_OPISANIE_AKTA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_OPISANIE_VERSII_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"hasDocOutline": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"KSENOLIT_boo_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_LABORATORIJA_PO_OPROBOVANIJU_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_LU_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_SCENARIY_LP_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_MAKSIMALJHNIHY_EHLEMENT_DOBIHCHNOGO_POLJA_DOP_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_MARKSHEYDERSKOE_IZMERENIE_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"MESTOROZHDENIE_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_MINIMALJHNIHY_EHLEMENT_DOBIHCHNOGO_POLJA_DOP_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_NABOR_EHLEMENTOV_DOBIHCHNOGO_POLJA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"NAZNACHENIE_SKVAZHINIH_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_SCENARIY_IMJA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"TIP_KARTIH_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"NALICHIE_LOKALJHNIHKH_IZMELJHCHENIY_boo_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_NACHALO_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"NOMENKLATURA_LISTA_strm_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_NOMER_VERSII_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_AKT_ZAKLADOCHNIHKH_RABOT_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"OBHHEKT_PRIVJAZKI_MARKSHEYDERSKIKH_DANNIHKH_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_OKONCHANIE_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"OPISANIE_DLJA_KSENOLITA_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_OE_EHKSPERTA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_ORGANIZACIJA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_ORGANIZACIJU_ZAKAZCHIKA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_OE_ZAKAZCHIKA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_OE_ISPOLNITELJA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_EHLEMENT_DOBIHCHNOGO_POLJA_OSN_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"OSNOVANIE_LICENZII_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_OTCHET_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_PO_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_PARAMETR_MODELI_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"ORIENTACIJA_SREZA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_PI_strm_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"PRIZNAK_MAKROSHHJEMKI_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"PROGNOZ_RUDONOSNOSTI_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_PROEKT_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_PROTOKOL_PO_OPROBOVANIJU_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_RABOTA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_RAZDEL_ARKHIVA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_VID_PROEKTNOGO_DOKUMENTA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"RAZRESHAJUJSHAJA_SPOSOBNOSTJH_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_RUDNOE_TELO_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_SEGMENT_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_SEGMENT__OT_RABOTIH__reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_SECHENIE__OT_RABOTIH__reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_SKVAZHINU_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SLOY_ZABLOKIROVAN_boo_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_SOGLASUJUJSHEGO_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"STATUS_SOGLASOVANIJA_KARKASA_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"STATUS_MODELI_boo_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_SOSTOJANIE_SCENARIJA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SPEKTRALJHNIHY_DIAPAZON_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SREDSTVA_POLUCHENIJA_DDZ_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_STADIJU_GORNOY_RABOTIH__OT_RABOTIH__reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_STATUS_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"STATUS_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_STATUS_PREOBRAZOVANIJA_FAYLA_SHHEMKI_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_STRAT_INDEKS_strm_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_STRATON_strm_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_SCENARIY_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_PROEKT_KAPITELJHNOGO_STROITELJHSTVA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_TEKHNOLOGICHESKUJU_SETJH_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"TIP_VARIANTA_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_TIP_ZAKAZA_NA_OPROBOVANIE_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_TIP_KARKASA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"TIP_KUBA_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"TIP_MODELI_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_TIP_OTCHETNIHKH_DANNIHKH_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"METOD_POSTROENIJA_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"TIP_RAZLOMA_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"TIP_SETKI_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_TIP_GORNOY_SKVAZHINIH_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_TIP_FAYLA_SKLADA_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"TIP_EHLEMENTA_SETI_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"FORMACIJA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_UTOCHNJAJUJSHUJU_KOLICHESTVENNUJU_KHARAKTERISTIKU_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_UCHASTKI_RABOT_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_UCHASTOK_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_FAZU_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_CIKL_RABOT_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_EHLEMENT_DOBIHCHNOGO_POLJA_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_EHTAP_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"KUST_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_KATEGORIJA_UCHETA_MICROMINE_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": [
+						{
+							"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.StringSolrFilterValue",
+							"value": {
+								"negative": false,
+								"value": "Маркшейдерия",
+								"count": "10674"
+							}
+						}
+					]
+				}
+			}
+		},
+		"SSIHLKA_NA_TIP_FAYLA_MICROMINE_domt_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"SSIHLKA_NA_TIP_FAYLA_MICROMINE_reft_f": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"dataGridSettings": {
+			"HPDMonitoringTableKey": {
+				"fixed-column-count-left": "0",
+				"fixed-column-count-right": "0",
+				"other": {
+					"c": [
+						{
+							"i": "ИМЯ11",
+							"w": "270px",
+							"v": true
+						},
+						{
+							"i": "X MAX1",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "X MIN1",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "Y MAX1",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "Y MIN1",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "Z MAX1",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "Z MIN1",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "АВТОР11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "АЗИМУТ1",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА АКТУАЛЬНОСТЬ ВЕРСИИ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА БАЛАНСОВЫЙ ТИП ГМ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ВИД ВЫРАБОТКИ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ВИД РАБОТЫ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ВРАЩЕНИЕ1",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ГОРНАЯ ВЫРАБОТКА11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ГОД1",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ВИД ПЕРИОДА11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ДАТА ДОБАВЛЕНИЯ13",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ДАТА КЛАССИФИКАЦИИ3",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ДАТУ НАЧАЛА11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ДАТА ОБРАБОТКИ3",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ДАТУ ОКОНЧАНИЯ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ДАТА СОГЛАСОВАНИЯ3",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ДОБЫЧНОЕ ПОЛЕ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ЭЛЕМЕНТ ДОБЫЧНОГО ПОЛЯ ДОП11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ЗНАЧЕНИЕ ХАРАКТЕРИСТИКИ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ИМЯ СЛОЯ2",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА КАТЕГОРИЯ УЧЕТА MICROMINE7",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА КАЧЕСТВЕННУЮ ХАРАКТЕРИСТИКУ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "СТАТУС КЛАССИФИКАЦИИ4",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ОПИСАНИЕ ВЕРСИИ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "КОММЕНТАРИЙ К СТАТУСУ2",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "КСЕНОЛИТ4",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА СЦЕНАРИЙ ЛП11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ПЕРИОД ГМП3",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА СЦЕНАРИЙ ИМЯ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА НАЧАЛО11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА НОМЕР ВЕРСИИ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА АКТ ЗАКЛАДОЧНЫХ РАБОТ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ОБЪЕМНЫЙ ВЕС1",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ОКОНЧАНИЕ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ОПИСАНИЕ2",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ОПИСАНИЕ АКТА11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ОРГАНИЗАЦИЯ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ЭЛЕМЕНТ ДОБЫЧНОГО ПОЛЯ ОСН11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ОТЧЕТ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ПОГРУЖЕНИЕ1",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА РАБОТА11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА РАЗДЕЛ АРХИВА11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА РУДНОЕ ТЕЛО11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА СОГЛАСУЮЩЕГО11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "СТАТУС МОДЕЛИ4",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА СОСТОЯНИЕ СЦЕНАРИЯ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА СЦЕНАРИЙ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ТЕХНОЛОГИЧЕСКУЮ СЕТЬ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ТИП КАРКАСА11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ТИП ОТЧЕТНЫХ ДАННЫХ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ТИП ФАЙЛА MICROMINE11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА УЧАСТОК11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ФАЗУ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ЦВЕТ2",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ЦИКЛ РАБОТ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ЭЛЕМЕНТ ДОБЫЧНОГО ПОЛЯ11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "ССЫЛКА НА ЭТАП11",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "fileLastUpdated3",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "fileChecksum2",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "fileLastVisited3",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "filePathFull2",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "fileSize1",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "fileExtension2",
+							"w": "270px",
+							"v": false
+						},
+						{
+							"i": "Добавлено документов2",
+							"w": "70px",
+							"v": false
+						},
+						{
+							"i": "Обновление обсуждений2",
+							"w": "70px",
+							"v": false
+						}
+					],
+					"fl": 0,
+					"fr": 0,
+					"p": 50,
+					"onlyText": false
+				}
+			},
+			"HPDMonitoringTreeKey": {
+				"grid-settings": {
+					"nodes": [
+						{
+							"Рудник \"Октябрьский\";Меридиональная(-620);Меридиональная Панель 7": {
+								"s": 0,
+								"l": 300
+							}
+						},
+						{
+							"Рудник \"Октябрьский\"": {
+								"s": 0,
+								"l": 300
+							}
+						},
+						{
+							"Рудник \"Октябрьский\";Меридиональная(-620)": {
+								"s": 0,
+								"l": 300
+							}
+						},
+						{
+							"Рудник \"Октябрьский\";Не задана": {
+								"s": 0,
+								"l": 300
+							}
+						},
+						{
+							"Рудник \"Октябрьский\";Не задана;fieldName:SSIHLKA_NA_EHLEMENT_DOBIHCHNOGO_POLJA_OSN_reft_f": {
+								"s": 0,
+								"l": 300
+							}
+						},
+						{
+							"Рудник \"Октябрьский\";Не задана;fieldName:SSIHLKA_NA_EHLEMENT_DOBIHCHNOGO_POLJA_OSN_reft_f;Стринг": {
+								"s": 0,
+								"l": 300
+							}
+						},
+						{
+							"Рудник \"Октябрьский\";Не задана;fieldName:SSIHLKA_NA_EHLEMENT_DOBIHCHNOGO_POLJA_OSN_reft_f;Стринг;ЗД-7-148-2": {
+								"s": 0,
+								"l": 300
+							}
+						}
+					],
+					"grid": {
+						"c": [
+							{
+								"i": "ИМЯ11",
+								"w": "699px",
+								"v": true
+							},
+							{
+								"i": "X MAX1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "X MIN1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "Y MAX1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "Y MIN1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "Z MAX1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "Z MIN1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "АВТОР11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "АЗИМУТ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА АКТУАЛЬНОСТЬ ВЕРСИИ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА БАЛАНСОВЫЙ ТИП ГМ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ВИД ВЫРАБОТКИ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ВИД РАБОТЫ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВРАЩЕНИЕ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ГОРНАЯ ВЫРАБОТКА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ГОД1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ВИД ПЕРИОДА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ДОБАВЛЕНИЯ13",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА КЛАССИФИКАЦИИ3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ДАТУ НАЧАЛА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ОБРАБОТКИ3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ДАТУ ОКОНЧАНИЯ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА СОГЛАСОВАНИЯ3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ДОБЫЧНОЕ ПОЛЕ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ЭЛЕМЕНТ ДОБЫЧНОГО ПОЛЯ ДОП11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ЗНАЧЕНИЕ ХАРАКТЕРИСТИКИ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ИМЯ СЛОЯ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА КАТЕГОРИЯ УЧЕТА MICROMINE7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА КАЧЕСТВЕННУЮ ХАРАКТЕРИСТИКУ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "СТАТУС КЛАССИФИКАЦИИ4",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ОПИСАНИЕ ВЕРСИИ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "КОММЕНТАРИЙ К СТАТУСУ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "КСЕНОЛИТ4",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СЦЕНАРИЙ ЛП11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПЕРИОД ГМП3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СЦЕНАРИЙ ИМЯ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА НАЧАЛО11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА НОМЕР ВЕРСИИ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА АКТ ЗАКЛАДОЧНЫХ РАБОТ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ОБЪЕМНЫЙ ВЕС1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ОКОНЧАНИЕ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ОПИСАНИЕ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ОПИСАНИЕ АКТА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ОРГАНИЗАЦИЯ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ЭЛЕМЕНТ ДОБЫЧНОГО ПОЛЯ ОСН11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ОТЧЕТ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПОГРУЖЕНИЕ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА РАБОТА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА РАЗДЕЛ АРХИВА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА РУДНОЕ ТЕЛО11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СОГЛАСУЮЩЕГО11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "СТАТУС МОДЕЛИ4",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СОСТОЯНИЕ СЦЕНАРИЯ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СЦЕНАРИЙ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ТЕХНОЛОГИЧЕСКУЮ СЕТЬ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ТИП КАРКАСА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ТИП ОТЧЕТНЫХ ДАННЫХ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ТИП ФАЙЛА MICROMINE11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА УЧАСТОК11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ФАЗУ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ЦВЕТ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ЦИКЛ РАБОТ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ЭЛЕМЕНТ ДОБЫЧНОГО ПОЛЯ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ЭТАП11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "fileLastUpdated3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "fileChecksum2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "fileLastVisited3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "filePathFull2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "fileSize1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "fileExtension2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "Добавлено документов2",
+								"w": "70px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ТИП ГОРНОЙ СКВАЖИНЫ7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ТИП ЗАКАЗА НА ОПРОБОВАНИЕ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "СЕЧЕНИЕ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ОРГАНИЗАЦИЮ ЗАКАЗЧИКА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ОПИСАНИЕ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА МИНИМАЛЬНЫЙ ЭЛЕМЕНТ ДОБЫЧНОГО ПОЛЯ ДОП11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА МАКСИМАЛЬНЫЙ ЭЛЕМЕНТ ДОБЫЧНОГО ПОЛЯ ДОП11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ЛАБОРАТОРИЯ ПО ОПРОБОВАНИЮ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА КАТЕГОРИЮ РАБОТ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ИССЛЕДОВАНИЕ ГИС ГОРНОЙ СКВАЖИНЫ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА РЕЗУЛЬТАТ ИССЛЕДОВАНИЯ ГИС ГОРНОЙ СКВАЖИНЫ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ДОБАВЛЕНИЯ3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СОСТАВ МЕТОДА ОПРОБОВАНИЯ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ГЛУБИНА ОКОНЧАНИЯ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ГЛУБИНА НАЧАЛА1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ТИП ЭЛЕМЕНТА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА МЕТОД ОПРОБОВАНИЯ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА АКТУАЛЬНОСТЬ7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "Z1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "Y1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "X1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НОМЕР ЯЩИКА1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ОПИСАНИЕ ДЛЯ КСЕНОЛИТА7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПРИЗНАК МАКРОСЪЁМКИ7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ТИП ФАЙЛА MICROMINE7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПРИЗНАК ГРУППИРОВКИ ДЛЯ ТИПОВ КАРКАСА MICROMINE2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПУСКОВОЙ КОМПЛЕКС2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ПРОЕКТ КАПИТЕЛЬНОГО СТРОИТЕЛЬСТВА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ШТРИХОВКА СРЕЗА2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ШТРИХОВКА СИЛУЭТА2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ТОЧНОСТЬ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СТАДИЮ ГОРНОЙ РАБОТЫ (ОТ РАБОТЫ)11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "СТАТУС СОГЛАСОВАНИЯ КАРКАСА7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "СМЕЩЕНИЕ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СЕЧЕНИЕ (ОТ РАБОТЫ)11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СЕГМЕНТ (ОТ РАБОТЫ)11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СЕГМЕНТ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "РАСПОЛОЖЕНИЕ МЕТКИ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ПРОТОКОЛ ПО ОПРОБОВАНИЮ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НОМЕР ПРОТОКОЛА2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА НАБОР ЭЛЕМЕНТОВ ДОБЫЧНОГО ПОЛЯ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "МАРКШЕЙДЕРСКИЙ БЛОК2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ЛЕГЕНДА2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "АВТОР ВЫГРУЗКИ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА КАТЕГОРИЮ ГОРНЫХ РАБОТ (ОТ РАБОТЫ)11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ЗАЛЕЖЬ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ОКОНЧАНИЯ ГОРНОЙ РАБОТЫ (ОТ РАБОТЫ)11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ОКОНЧАНИЯ3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА НАЧАЛА3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ЗАГРУЗКИ13",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ВЫГРУЗКИ13",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ВИД ГОРНЫХ РАБОТ (ОТ РАБОТЫ)11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "АРХИВ7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "Y ТОЧКИ НАБЛЮДЕНИЯ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "Y ТОЧКИ СТОЯНИЯ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "Z ТОЧКИ НАБЛЮДЕНИЯ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "Z ТОЧКИ СТОЯНИЯ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА РАССЧЕТА3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА СЪЕМКИ3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДИРЕКЦИОННЫЙ УГОЛ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ЖВК11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ИССЛЕДОВАНИЕ ИНКЛИНОМЕТРИЯ ГОР СКВ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА МАРКШЕЙДЕРСКОЕ ИЗМЕРЕНИЕ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ИМЯ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ОБЪЕКТ ПРИВЯЗКИ МАРКШЕЙДЕРСКИХ ДАННЫХ7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НОМЕР ПО ПОРЯДКУ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СТАТУС ПРЕОБРАЗОВАНИЯ ФАЙЛА СЪЕМКИ7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ТИП ФАЙЛА СКЛАДА7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ТИП ЭЛЕМЕНТА СЕТИ7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "КУСТ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "АКТИВ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВИД ИСПОЛЬЗУЕМОЙ ВОЛНЫ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВИД ИСТОЧНИКА ВОЗМУЩЕНИЯ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВИД КЛАССА ВОЛНЫ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВИД ОБЪЕКТА ЛУ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВИД ПРОГНОЗНОГО КРИТЕРИЯ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВИД РАБОТ ЛУ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВИД РАЗМЕРНОСТИ СЪЕМКИ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВИД СЫРЬЯ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВИД ЧАСТОТЫ ВОЛНЫ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ОЕ-ВЛАДЕЛЬЦА ЛИЦ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ГОД3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ГОС РЕГ НОМЕР2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ГОСРЕГИСТРАЦИИ13",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА НАЧАЛА13",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА НАЧАЛА ПРОЕКТА13",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ОКОНЧАНИЯ13",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ОКОНЧАНИЯ ВНУТР ЭКСПЕРТИЗ3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ОКОНЧАНИЯ ПРОЕКТА13",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ПЕРЕДАЧИ ГОСЭКСПЕРТУ3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ЭКСПЕРТНОГО ЗАКЛЮЧЕНИЯ3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДИСКРЕТНОСТЬ МОДЕЛИ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВИД ДОКУМЕНТА О ЛИЦ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ЗАЛЕЖЬ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ЗАПАСЫ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ИМЯ ФАЙЛА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ИНВ. НОМЕР ТВЕРДОЙ КОПИИ (РФГФ)2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НОМЕР2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "КОЛИЧЕСТВО ОБЪЕКТОВ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "КОЛИЧЕСТВО ТОЧЕК1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "МЕСТОРОЖДЕНИЕ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "МЕТОД ГР2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "МЕТОД МР2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "МЕТОД ЭР2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НАЗВАНИЕ ДОКУМЕНТА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НАИМЕНОВАНИЕ РАЗЛОМА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НАИМЕНОВАНИЕ СЕТКИ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НАЛИЧИЕ ЛОКАЛЬНЫХ ИЗМЕЛЬЧЕНИЙ4",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НОМЕР ПВ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НОМЕР ПП2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ОЕ-ЭКСПЕРТА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ОРГАНИЗАЦИЯ-ВЛАДЕЛЕЦ ЛИЦЕНЗИИ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ОЕ ВЛАД МОДЕЛИ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ОЕ-ИСПОЛНИТЕЛЯ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ОСНОВАНИЕ ЛИЦЕНЗИИ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ОТВЕТСТВЕННЫЙ ИСПОЛНИТЕЛЬ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПВ КООРДИНАТА X1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПВ КООРДИНАТА Y1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПЕРВЫЙ ПИКЕТ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ПО11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПОЛНОЕ НАИМЕНОВАНИЕ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПОСЛЕДНИЙ ПИКЕТ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПП КООРДИНАТА X1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПП КООРДИНАТА Y1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПРИРОСТ ЗАПАСОВ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПРОГНОЗ РУДОНОСНОСТИ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ПРОЕКТ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПУТЬ СИНХРОНИЗАЦИИ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ВИД ПРОЕКТНОГО ДОКУМЕНТА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "РАЗМЕРНОСТЬ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "РАЗРЕШАЮЩАЯ СПОСОБНОСТЬ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "СЕКРЕТНОСТЬ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "СЕРИЯ, НОМЕР, ТИП ЛИЦЕНЗИИ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "СЛОЙ ЗАБЛОКИРОВАН4",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "СОСТАВИЛ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "СПЕКТРАЛЬНЫЙ ДИАПАЗОН11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "СРЕДСТВА ПОЛУЧЕНИЯ ДДЗ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ПЕРЕДАЧИ В ГФИ3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СТАТУС11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "СТАТУС11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СТРАТОН2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "СТРУКТУРНАЯ ПРИВЯЗКА2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ТИП МОДЕЛИ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ТИП РАЗЛОМА7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ТИП СЕТКИ7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "УДК2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ЗАТРАТЫ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДИСКРЕТИЗАЦИЯ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ЦЕЛЬ РАБОТ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА УЧАСТКИ РАБОТ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "УТВЕРДИЛ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "УНИКАЛЬНЫЙ НОМЕР ЗНАЧЕНИЯ ХАРАКТЕРИСТИКИ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ФОРМАЦИЯ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "МЕТОД ПОСТРОЕНИЯ7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ТИП КУБА7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ТИП ВАРИАНТА7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СТРАТ ИНДЕКС2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СТВОЛ СКВ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "СОГЛАСОВАЛ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА СКВАЖИНУ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПОСЛЕДНЯЯ ОГТ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ПИ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ОРИЕНТАЦИЯ СРЕЗА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА АКТУАЛЬНОСТИ ИСХ. ДАННЫХ13",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ЗАКЛЮЧЕНИЯ3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ПЕРВАЯ ОГТ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ПАРАМЕТР МОДЕЛИ7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ОРГАНИЗАЦИЯ-ИСПОЛНИТЕЛЬ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ОЕ ЗАКАЗЧИКА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ОРГАНИЗАЦИЯ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "СТОИМОСТЬ РАБОТ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НОМЕР ДОКУМЕНТА2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НОМЕР ДОГОВОРА2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НОМЕР ВЕЕРА1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НОМЕНКЛАТУРА ЛИСТА2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НАИМЕНОВАНИЕ ОБЪЕКТА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НАИМЕНОВАНИЕ КУБА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НАИМЕНОВАНИЕ КАРТЫ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НАИМЕНОВАНИЕ ГОРИЗОНТА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НАИМЕНОВАНИЕ ПАПКИ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ТИП КАРТЫ7",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НАИМЕНОВАНИЕ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НАЗНАЧЕНИЕ СКВАЖИНЫ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "МАСШТАБ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ЛУ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА КОНТУР15",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "КОММЕНТАРИЙ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "КОД2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "КЛЮЧЕВЫЕ СЛОВА2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ИНВЕНТАРНЫЙ НОМЕР ТВЕРДОЙ КОПИИ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ИНВЕНТАРНЫЙ НОМЕР DVD КОПИИ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ПОЛЬЗОВАТЕЛЯ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДЛИНА ЗАПИСИ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА УТВЕРЖДЕНИЯ3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ОКОНЧАНИЕ ВЫПОЛНЕНИЯ3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "НАЧАЛО ВЫПОЛНЕНИЯ3",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ДАТА ИЗМЕНЕНИЯ13",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "МАСШТАБ ГОР1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВСЕ СКВАЖИНЫ4",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВИД РАБОТ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВИД РАЗРЕЗА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВИД КОЛОНКИ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "МАСШТАБ ВЕРТ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ВЕРСИЯ2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА АДМ ЕДИНИЦЫ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "АВТОР2",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "АО СРЕЗА1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "X ТОЧКИ СТОЯНИЯ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "X ТОЧКИ НАБЛЮДЕНИЯ1",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА БЛОК ПОДСЧЕТА ЗАПАСОВ11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "Обновление обсуждений2",
+								"w": "70px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА ВИД УЧЕТА11",
+								"w": "270px",
+								"v": false
+							},
+							{
+								"i": "ССЫЛКА НА УТОЧНЯЮЩУЮ КОЛИЧЕСТВЕННУЮ ХАРАКТЕРИСТИКУ11",
+								"w": "270px",
+								"v": false
+							}
+						],
+						"fl": 0,
+						"fr": 0,
+						"p": 100,
+						"onlyText": false
+					}
+				},
+				"group-settings": {
+					"groups": [
+						{
+							"f": "SSIHLKA_NA_ORGANIZACIJA_reft_f",
+							"a": true,
+							"m": 1
+						},
+						{
+							"f": "SSIHLKA_NA_TEKHNOLOGICHESKUJU_SETJH_reft_f",
+							"a": true,
+							"m": 1
+						},
+						{
+							"f": "SSIHLKA_NA_EHLEMENT_DOBIHCHNOGO_POLJA_OSN_reft_f",
+							"a": true,
+							"m": 1
+						},
+						{
+							"f": "SSIHLKA_NA_TIP_FAYLA_MICROMINE_domt_f",
+							"a": true,
+							"m": 1
+						},
+						{
+							"f": "SSIHLKA_NA_GORNAJA_VIHRABOTKA_reft_f",
+							"a": true,
+							"m": 1
+						}
+					]
+				}
+			},
+			"fw": {
+				"mh": false
+			}
+		},
+		"beanId": "367133009845180397219653117071579236",
+		"beanName": "Маркшейдерия",
+		"availableFilters": {
+			"className": "java.util.ArrayList",
+			"value": [
+				{
+					"className": "java.lang.String",
+					"value": "SSIHLKA_NA_KATEGORIJA_UCHETA_MICROMINE_domt_f"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "SSIHLKA_NA_SCENARIY_reft_f"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "SSIHLKA_NA_TIP_FAYLA_MICROMINE_domt_f"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "SSIHLKA_NA_TIP_KARKASA_reft_f"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "SSIHLKA_NA_GORNAJA_VIHRABOTKA_reft_f"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "SSIHLKA_NA_ORGANIZACIJA_reft_f"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "GOD_dat"
+				}
+			]
+		},
+		"viewKey": "HPDMonitoringTreeKey",
+		"core": "HPDORE",
+		"dataCore": "HPDORE",
+		"filterFunctions": {
+			"className": "java.util.ArrayList",
+			"value": []
+		},
+		"quickFilters": {
+			"className": "java.util.HashMap",
+			"value": {
+				
+			}
+		},
+		"filterPanelMinimized": false,
+		"filterDesktopTile": 1,
+		"hash": "#export-documents:filter-bean=503254087145787805744286847705420984&function=OT.932.APP.SF.8.000"
+	}
+}

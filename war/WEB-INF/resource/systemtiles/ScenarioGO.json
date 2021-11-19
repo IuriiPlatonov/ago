@@ -1,0 +1,534 @@
+{
+	"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.SolrTileFilterBean",
+	"value": {
+		"isTemplate": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"boName": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": [
+						{
+							"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.StringSolrFilterValue",
+							"value": {
+								"negative": false,
+								"value": "Локальный проект",
+								"count": "7"
+							}
+						}
+					]
+				}
+			}
+		},
+		"boNameObject": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"buName": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"initials": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"cipher": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"versionNumber": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"excNames": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"dataGridSettings": {
+			"table": {
+				"0": {
+					"backgroundColor": null,
+					"borderStyle": null,
+					"fontColor": null,
+					"fontFamily": null,
+					"fontSize": null,
+					"fontStyle": null,
+					"fontWeight": null,
+					"height": null,
+					"style-provider": null,
+					"styler": null,
+					"textAlign": null,
+					"textDecoration": null,
+					"visible": true,
+					"width": "300px"
+				},
+				"1": {
+					"backgroundColor": null,
+					"borderStyle": null,
+					"fontColor": null,
+					"fontFamily": null,
+					"fontSize": null,
+					"fontStyle": null,
+					"fontWeight": null,
+					"height": null,
+					"style-provider": null,
+					"styler": null,
+					"textAlign": null,
+					"textDecoration": null,
+					"visible": true,
+					"width": "90px"
+				},
+				"2": {
+					"backgroundColor": null,
+					"borderStyle": null,
+					"fontColor": null,
+					"fontFamily": null,
+					"fontSize": null,
+					"fontStyle": null,
+					"fontWeight": null,
+					"height": null,
+					"style-provider": null,
+					"styler": null,
+					"textAlign": null,
+					"textDecoration": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"3": {
+					"backgroundColor": null,
+					"borderStyle": null,
+					"fontColor": null,
+					"fontFamily": null,
+					"fontSize": null,
+					"fontStyle": null,
+					"fontWeight": null,
+					"height": null,
+					"style-provider": null,
+					"styler": null,
+					"textAlign": null,
+					"textDecoration": null,
+					"visible": true,
+					"width": "60px"
+				},
+				"4": {
+					"backgroundColor": null,
+					"borderStyle": null,
+					"fontColor": null,
+					"fontFamily": null,
+					"fontSize": null,
+					"fontStyle": null,
+					"fontWeight": null,
+					"height": null,
+					"style-provider": null,
+					"styler": null,
+					"textAlign": null,
+					"textDecoration": null,
+					"visible": true,
+					"width": "200px"
+				},
+				"5": {
+					"backgroundColor": null,
+					"borderStyle": null,
+					"fontColor": null,
+					"fontFamily": null,
+					"fontSize": null,
+					"fontStyle": null,
+					"fontWeight": null,
+					"height": null,
+					"style-provider": null,
+					"styler": null,
+					"textAlign": null,
+					"textDecoration": null,
+					"visible": true,
+					"width": "250px"
+				},
+				"6": {
+					"backgroundColor": null,
+					"borderStyle": null,
+					"fontColor": null,
+					"fontFamily": null,
+					"fontSize": null,
+					"fontStyle": null,
+					"fontWeight": null,
+					"height": null,
+					"style-provider": null,
+					"styler": null,
+					"textAlign": null,
+					"textDecoration": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"7": {
+					"backgroundColor": null,
+					"borderStyle": null,
+					"fontColor": null,
+					"fontFamily": null,
+					"fontSize": null,
+					"fontStyle": null,
+					"fontWeight": null,
+					"height": null,
+					"style-provider": null,
+					"styler": null,
+					"textAlign": null,
+					"textDecoration": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"8": {
+					"backgroundColor": null,
+					"borderStyle": null,
+					"fontColor": null,
+					"fontFamily": null,
+					"fontSize": null,
+					"fontStyle": null,
+					"fontWeight": null,
+					"height": null,
+					"style-provider": null,
+					"styler": null,
+					"textAlign": null,
+					"textDecoration": null,
+					"visible": true,
+					"width": "100px"
+				},
+				"9": {
+					"backgroundColor": null,
+					"borderStyle": null,
+					"fontColor": null,
+					"fontFamily": null,
+					"fontSize": null,
+					"fontStyle": null,
+					"fontWeight": null,
+					"height": null,
+					"style-provider": null,
+					"styler": null,
+					"textAlign": null,
+					"textDecoration": null,
+					"visible": false,
+					"width": "150px"
+				},
+				"10": {
+					"backgroundColor": null,
+					"borderStyle": null,
+					"fontColor": null,
+					"fontFamily": null,
+					"fontSize": null,
+					"fontStyle": null,
+					"fontWeight": null,
+					"height": null,
+					"style-provider": null,
+					"styler": null,
+					"textAlign": null,
+					"textDecoration": null,
+					"visible": false,
+					"width": "200px"
+				},
+				"11": {
+					"backgroundColor": null,
+					"borderStyle": null,
+					"fontColor": null,
+					"fontFamily": null,
+					"fontSize": null,
+					"fontStyle": null,
+					"fontWeight": null,
+					"height": null,
+					"style-provider": null,
+					"styler": null,
+					"textAlign": null,
+					"textDecoration": null,
+					"visible": true,
+					"width": "100px"
+				},
+				"12": {
+					"backgroundColor": null,
+					"borderStyle": null,
+					"fontColor": null,
+					"fontFamily": null,
+					"fontSize": null,
+					"fontStyle": null,
+					"fontWeight": null,
+					"height": null,
+					"style-provider": null,
+					"styler": null,
+					"textAlign": null,
+					"textDecoration": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"fixed-column-count-left": 0,
+				"fixed-column-count-right": 0,
+				"hideBorders": false,
+				"other": {
+					"c": [
+						{
+							"i": "0",
+							"w": "300px",
+							"v": true
+						},
+						{
+							"i": "1",
+							"w": "90px",
+							"v": true
+						},
+						{
+							"i": "2",
+							"w": "150px",
+							"v": true
+						},
+						{
+							"i": "3",
+							"w": "60px",
+							"v": true
+						},
+						{
+							"i": "4",
+							"w": "200px",
+							"v": true
+						},
+						{
+							"i": "5",
+							"w": "250px",
+							"v": true
+						},
+						{
+							"i": "6",
+							"w": "150px",
+							"v": true
+						},
+						{
+							"i": "7",
+							"w": "150px",
+							"v": true
+						},
+						{
+							"i": "11",
+							"w": "100px",
+							"v": true
+						},
+						{
+							"i": "8",
+							"w": "100px",
+							"v": true
+						},
+						{
+							"i": "9",
+							"w": "150px",
+							"v": false
+						},
+						{
+							"i": "10",
+							"w": "200px",
+							"v": false
+						},
+						{
+							"i": "12",
+							"w": "150px",
+							"v": true
+						}
+					],
+					"fl": 0,
+					"fr": 0,
+					"p": 50,
+					"onlyText": false
+				},
+				"showHeaders": false
+			},
+			"group": {
+				"grid-settings": {
+					"nodes": [],
+					"grid": {
+						"c": [
+							{
+								"i": "0",
+								"w": "300px",
+								"v": true
+							},
+							{
+								"i": "1",
+								"w": "200px",
+								"v": true
+							},
+							{
+								"i": "2",
+								"w": "200px",
+								"v": true
+							},
+							{
+								"i": "3",
+								"w": "200px",
+								"v": true
+							},
+							{
+								"i": "4",
+								"w": "200px",
+								"v": true
+							},
+							{
+								"i": "5",
+								"w": "200px",
+								"v": true
+							},
+							{
+								"i": "6",
+								"w": "200px",
+								"v": true
+							},
+							{
+								"i": "7",
+								"w": "200px",
+								"v": true
+							},
+							{
+								"i": "8",
+								"w": "100px",
+								"v": true
+							},
+							{
+								"i": "9",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "10",
+								"w": "200px",
+								"v": true
+							},
+							{
+								"i": "11",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "12",
+								"w": "100px",
+								"v": true
+							}
+						],
+						"fl": 0,
+						"fr": 0,
+						"p": 50,
+						"onlyText": false
+					}
+				},
+				"group-settings": {
+					"groups": []
+				}
+			},
+			"fw": {
+				"mh": false
+			}
+		},
+		"beanId": "1227649257204212918950328409705743037",
+		"beanName": "Локальный проект",
+		"availableFilters": {
+			"className": "java.util.ArrayList",
+			"value": [
+				{
+					"className": "java.lang.String",
+					"value": "name_sort"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "isTemplate"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "boName"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "boNameObject"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "createDate"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "buName"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "initials"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "cipher"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "excNames"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "versionNumber"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "startDate"
+				}
+			]
+		},
+		"viewKey": "table",
+		"core": "graphicalreporting",
+		"dataCore": "graphicalreporting",
+		"filterFunctions": {
+			"className": "java.util.ArrayList",
+			"value": []
+		},
+		"quickFilters": {
+			"className": "java.util.HashMap",
+			"value": {
+				
+			}
+		},
+		"filterPanelMinimized": false,
+		"filterDesktopTile": 1,
+		"hash": "#monitoring-go:filter-bean=1227649257204212918950328409705743037&function=OT.135.APP.SF.2.001"
+	}
+}

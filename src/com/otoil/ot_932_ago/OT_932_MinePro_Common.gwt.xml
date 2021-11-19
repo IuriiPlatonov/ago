@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<inherits name='ru.ot.wevelns.WeVEL-NS' />
+	<inherits name='com.otoil.speedtest.GWT-SpeedTest' />
+	<inherits name='com.otoil.ot_040_7_0010.OT_040_7_0010' />
+	<inherits name='com.otoil.ot_040_1_0050.OT_040_1_0050' />
+	<inherits name='com.otoil.ot_040_1_0020.OT_040_1_0020' />
+</module>
+

@@ -1,0 +1,1133 @@
+{
+	"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.SolrTileFilterBean",
+	"value": {
+		"mineBuName": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"pitBuName": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"fieldName": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"technetName": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"technetCalculation": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": [
+						{
+							"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.StringSolrFilterValue",
+							"value": {
+								"negative": false,
+								"value": "Да",
+								"count": "12492"
+							}
+						}
+					]
+				}
+			}
+		},
+		"fieldElementName": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"childFieldElementName": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"name": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"isActual": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"elementsSetNames": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"approveStateBM": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"approveStateRM": {
+			"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.filter.bean.ListSolrFilterValue",
+			"value": {
+				"negative": false,
+				"list": {
+					"className": "java.util.ArrayList",
+					"value": []
+				}
+			}
+		},
+		"dataGridSettings": {
+			"table": {
+				"0": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"1": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "80px"
+				},
+				"2": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "70px"
+				},
+				"3": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"4": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"5": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "80px"
+				},
+				"6": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"7": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"8": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"9": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"10": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "100px"
+				},
+				"11": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "80px"
+				},
+				"12": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "80px"
+				},
+				"13": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "80px"
+				},
+				"14": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "80px"
+				},
+				"15": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "80px"
+				},
+				"16": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "80px"
+				},
+				"17": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"18": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"19": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"20": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"21": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"22": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "150px"
+				},
+				"fixed-column-count-left": "0",
+				"fixed-column-count-right": "0",
+				"other": {
+					"c": [
+						{
+							"i": "0",
+							"w": "150px",
+							"v": true
+						},
+						{
+							"i": "1",
+							"w": "80px",
+							"v": true
+						},
+						{
+							"i": "2",
+							"w": "70px",
+							"v": true
+						},
+						{
+							"i": "3",
+							"w": "150px",
+							"v": true
+						},
+						{
+							"i": "4",
+							"w": "150px",
+							"v": true
+						},
+						{
+							"i": "5",
+							"w": "80px",
+							"v": true
+						},
+						{
+							"i": "6",
+							"w": "150px",
+							"v": true
+						},
+						{
+							"i": "7",
+							"w": "150px",
+							"v": true
+						},
+						{
+							"i": "8",
+							"w": "150px",
+							"v": true
+						},
+						{
+							"i": "9",
+							"w": "150px",
+							"v": true
+						},
+						{
+							"i": "10",
+							"w": "100px",
+							"v": true
+						},
+						{
+							"i": "22",
+							"w": "150px",
+							"v": true
+						},
+						{
+							"i": "21",
+							"w": "150px",
+							"v": true
+						},
+						{
+							"i": "20",
+							"w": "150px",
+							"v": true
+						},
+						{
+							"i": "19",
+							"w": "150px",
+							"v": true
+						},
+						{
+							"i": "18",
+							"w": "150px",
+							"v": true,
+							"s": 0,
+							"d": true
+						},
+						{
+							"i": "17",
+							"w": "150px",
+							"v": true
+						},
+						{
+							"i": "16",
+							"w": "80px",
+							"v": true
+						},
+						{
+							"i": "15",
+							"w": "80px",
+							"v": true
+						},
+						{
+							"i": "14",
+							"w": "80px",
+							"v": true
+						},
+						{
+							"i": "13",
+							"w": "80px",
+							"v": true
+						},
+						{
+							"i": "12",
+							"w": "80px",
+							"v": true
+						},
+						{
+							"i": "11",
+							"w": "80px",
+							"v": true
+						}
+					],
+					"fl": 0,
+					"fr": 0,
+					"p": 50,
+					"onlyText": false
+				}
+			},
+			"group": {
+				"grid-settings": {
+					"nodes": [
+						{
+							"Октябрьский": {
+								"s": 0,
+								"l": 50
+							}
+						},
+						{
+							"Октябрьский;Меридиональная": {
+								"s": 0,
+								"l": 50
+							}
+						}
+					],
+					"grid": {
+						"c": [
+							{
+								"i": "0",
+								"w": "530px",
+								"v": true
+							},
+							{
+								"i": "1",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "2",
+								"w": "80px",
+								"v": true
+							},
+							{
+								"i": "3",
+								"w": "70px",
+								"v": true
+							},
+							{
+								"i": "4",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "5",
+								"w": "80px",
+								"v": true
+							},
+							{
+								"i": "6",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "7",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "8",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "9",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "10",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "11",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "12",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "13",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "14",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "15",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "16",
+								"w": "190px",
+								"v": true
+							},
+							{
+								"i": "17",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "18",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "19",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "20",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "21",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "22",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "24",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "23",
+								"w": "150px",
+								"v": true
+							},
+							{
+								"i": "25",
+								"w": "150px",
+								"v": true
+							}
+						],
+						"fl": 0,
+						"fr": 0,
+						"p": 50,
+						"onlyText": false
+					}
+				},
+				"group-settings": {
+					"groups": [
+						{
+							"f": "mineBuName",
+							"a": true,
+							"m": 1
+						},
+						{
+							"f": "technetName",
+							"a": true,
+							"m": 1
+						},
+						{
+							"f": "fieldElementName",
+							"a": true,
+							"m": 1
+						},
+						{
+							"f": "bmStructureName_elementsSetObjectsJson",
+							"a": true,
+							"m": 1
+						}
+					]
+				}
+			},
+			"pivot": {
+				"4": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "350px"
+				},
+				"5": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "200px"
+				},
+				"fixed-column-count-left": "0",
+				"fixed-column-count-right": "0",
+				"matrix-settings": {
+					"rows": {
+						"child-rows": [
+							{
+								"solr-field": {
+									"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+									"value": {
+										"name": "Технологическая сеть",
+										"meta-data": {
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+											"value": {
+												"field-name": "technetName",
+												"field-type": "STRING",
+												"is-hierarchy": false
+											}
+										}
+									}
+								},
+								"child-rows": [
+									{
+										"solr-field": {
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Рудник",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "mineBuName",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					},
+					"columns": [
+						{
+							"solr-field": {
+								"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+								"value": {
+									"name": "Размер по Y",
+									"meta-data": {
+										"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+										"value": {
+											"field-name": "sizeY",
+											"field-type": "DOUBLE",
+											"is-hierarchy": false
+										}
+									}
+								}
+							},
+							"aggregation-operation": {
+								"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.AggOperation",
+								"value": {
+									"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.AggOperation$Type",
+									"value": "SUM"
+								}
+							}
+						}
+					]
+				},
+				"opened-nodes": {
+					"className": "java.util.HashMap",
+					"value": {
+						"Меридианальная": {
+							"className": "com.google.gwt.view.client.Range",
+							"value": {
+								"start": 0,
+								"length": 2147483647
+							}
+						}
+					}
+				}
+			},
+			"matrix": {
+				"2": {
+					"mask-formatter": null,
+					"number-format": null,
+					"style-provider": null,
+					"styler": null,
+					"visible": true,
+					"width": "350px"
+				},
+				"fixed-column-count-left": "0",
+				"fixed-column-count-right": "0",
+				"matrix-settings": {
+					"rows": {
+						"child-rows": []
+					},
+					"columns": [],
+					"value": {
+						"solr-field": {
+							"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+							"value": {
+								"name": "Размер по X",
+								"meta-data": {
+									"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+									"value": {
+										"field-name": "sizeX",
+										"field-type": "DOUBLE",
+										"is-hierarchy": false
+									}
+								}
+							}
+						},
+						"aggregation-operation": {
+							"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.AggOperation",
+							"value": {
+								"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.AggOperation$Type",
+								"value": "SUM"
+							}
+						}
+					}
+				},
+				"opened-nodes": {
+					"className": "java.util.HashMap",
+					"value": {
+						
+					}
+				}
+			},
+			"chart": {
+				"general-settings": {
+					"className": "java.util.ArrayList",
+					"value": []
+				},
+				"x-axis-settings": {
+					"className": "java.util.ArrayList",
+					"value": [
+						{
+							"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.options.axis.SolrXFieldOption",
+							"value": {
+								"value": {
+									"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+									"value": {
+										"name": "Номер",
+										"meta-data": {
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+											"value": {
+												"field-name": "segmentNumber",
+												"field-type": "INTEGER",
+												"is-hierarchy": false
+											}
+										}
+									}
+								},
+								"acceptable-values": {
+									"className": "java.util.ArrayList",
+									"value": [
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Имя",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "name",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Номер",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "segmentNumber",
+														"field-type": "INTEGER",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Актуальность",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "isActual",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Добычное поле",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "fieldName",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Технологическая сеть",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "technetName",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Родительский элемент",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "fieldElementName",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Горизонт",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "fieldElementBtmMark",
+														"field-type": "DOUBLE",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Дочерний элемент",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "childFieldElementName",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Рудник",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "mineBuName",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Шахта",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "pitBuName",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Набор доп. эл. ДП",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "elementsSetNames",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Статус согласования геологом",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "approveStateBM",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Дата изменения статуса согласования геологом",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "approveDateBM",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Автор изменения статуса согласования геологом",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "approveUserBM",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Статус согласования маркшейдером",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "approveStateRM",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Дата изменения статуса согласования маркшейдером",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "approveDateRM",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										},
+										{
+											"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.chart.data.SolrField",
+											"value": {
+												"name": "Автор изменения статуса согласования маркшейдером",
+												"meta-data": {
+													"className": "com.otoil.ot_040_5_0010.client.form.monitoring.solr.data.bean.SolrValueFieldMetaData",
+													"value": {
+														"field-name": "approveUserRM",
+														"field-type": "STRING",
+														"is-hierarchy": false
+													}
+												}
+											}
+										}
+									]
+								}
+							}
+						}
+					]
+				},
+				"y-axes-settings": []
+			},
+			"fw": {
+				"mh": false
+			}
+		},
+		"beanId": "850649119873464347913571645390458268",
+		"beanName": "Согласование БМ",
+		"availableFilters": {
+			"className": "java.util.ArrayList",
+			"value": [
+				{
+					"className": "java.lang.String",
+					"value": "mineBuName"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "pitBuName"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "fieldName"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "technetName"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "fieldElementName"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "childFieldElementName"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "name"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "segmentNumber"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "isActual"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "fieldElementBtmMark"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "elementsSetsName"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "elementsSetNames"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "approveStateBM"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "approveStateRM"
+				},
+				{
+					"className": "java.lang.String",
+					"value": "technetCalculation"
+				}
+			]
+		},
+		"viewKey": "group",
+		"core": "fieldsegments",
+		"dataCore": "fieldsegments",
+		"filterFunctions": {
+			"className": "java.util.ArrayList",
+			"value": []
+		},
+		"quickFilters": {
+			"className": "java.util.HashMap",
+			"value": {
+				
+			}
+		},
+		"filterPanelMinimized": false,
+		"filterDesktopTile": 1,
+		"hash": "#technological-units:filter-bean=548543954570596089880004507300392471&function=OT.932.APP.SF.4.001"
+	}
+}

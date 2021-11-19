@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    
+    <property-set name="system">
+        <property name="connector"><![CDATA[com.otoil.ot_932_5_0020.server.connector.MineProConnectorATOLL]]></property>
+        <property name="show-build-version">true</property>
+        <property name="disable-owners">true</property>
+        <property name="company">OT.932.2</property>
+        <property name="sessionPoolLimit">1</property>
+        <property name="supportMail">support@ot-oil.com</property>
+    </property-set>
+    <property-set name="mainForm">
+        <property name="popularMenuItemVisible">false</property>
+        <property name="lastUsageMenuItemVisible">false</property>
+    </property-set>
+    <property-set name="hpd">
+        <property name="accessManagerActive">5</property>
+        <property name="accessManagerInitOnStartup">0</property>
+        <property name="accessManagerFieldSelMode">BY_BU</property>
+    </property-set>    
+</properties>

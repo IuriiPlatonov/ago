@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<inherits name="com.otoil.ot_131_main.HPDCommon" />
+	<inherits name="ru.ot.ot_131.style.HPD-Style" />
+	<inherits name='com.otoil.ot_131_5_0150.OT_131_5_0150' />
+	<inherits name='com.otoil.ot_932_5_0040.OT_932_5_0040' />
+	<inherits name='com.otoil.ot_135_1_0010.OT_135_1_0010' />
+	<inherits name='com.otoil.ot_135_1_0020.OT_135_1_0020' />
+	<inherits name='com.otoil.ot_932_5_0160.OT_932_5_0160' /> 
+	<inherits name='com.otoil.ot_135_2_0040.OT_135_2_0040' />
+	<inherits name='com.otoil.drawio.Drawio' />
+	
+	<!-- Визуализатор построения сечений для Граф. отчетности -->
+	<inherits name="com.otoil.ot_932_5_0170.OT_932_5_0170" />
+	
+	<replace-with class="com.otoil.ot_932_5_0040.client.NorilskMessagesStorage">
+		<when-type-is class="ru.ot.ot_131_5_0050.client.IMainMessagesStorage" />
+	</replace-with>
+
+	<replace-with class="com.otoil.ot_932_5_0040.client.OrePassportActionProvider">
+		<when-type-is
+			class="ru.ot.ot_131_5_0050.client.formheaderactions.ICustomPassportActionProvider" />
+	</replace-with>
+
+	<replace-with
+		class="com.otoil.ot_932_5_0040.client.OreMonitoringActionProvider">
+		<when-type-is
+			class="ru.ot.ot_131_5_0050.client.formheaderactions.ICustomMonitoringActionProvider" />
+	</replace-with>
+
+	<replace-with
+		class="ru.ot.ot_132_1_0050.client.main.impl.PDListSolrFactoryInitializer">
+		<when-type-is
+			class="com.otoil.ot_131_5_0060.client.prjdoclist.IPDListFactoryInitializer" />
+	</replace-with>
+
+	<replace-with
+		class="com.otoil.ot_932_5_0040.client.OreClientCustomAlgoritmProvider">
+		<when-type-is
+			class="ru.ot.ot_131_5_0050.client.customalgorithm.IClientCustomAlgoritmProvider" />
+	</replace-with>
+
+	<replace-with
+		class="com.otoil.ot_932_5_0040.client.tiles.NornickelTileRegistrator">
+		<when-type-is
+			class="ru.ot.ot_131_5_0050.client.customalgorithm.ITileRegistrator" />
+	</replace-with>
+
+	<replace-with class="com.otoil.ot_131_5_0150.client.MapAreaAdapterImpl">
+		<when-type-is class="ru.ot.ot_132_5_0030.client.map.MapAreaAdapter" />
+	</replace-with>
+
+	<replace-with
+		class="ru.ot.ot_100_2_0650.client.paramsetter.DefaultParamSetter">
+		<when-type-is class="ru.ot.ot_100_2_0650.client.paramsetter.IParamSetter" />
+	</replace-with>
+	
+	<replace-with class="com.otoil.ot_932_5_0040.client.OrePackageActionProvider">
+		<when-type-is class="ru.ot.ot_131_5_0050.client.formheaderactions.ICustomPackageActionProvider" />
+	</replace-with>
+	<!-- Пока не нужна кнопка выгрузки в MicroMine в кнопке-скрепке -->
+	<!-- replace-with class="com.otoil.ot_932_5_0040.client.OreClipPresenterActionProvider">
+		<when-type-is class="ru.ot.ot_131_5_0050.client.formheaderactions.ICustomClipPresenterActionProvider" />
+	</replace-with-->   	
+</module>
+

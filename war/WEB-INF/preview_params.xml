@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<preview_config>
+
+	<properties>
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+		<property name="connectionString" value="jdbc:oracle:thin:@10.100.22.12:1521:HPDOILDV"/>
+		<property name="user" value="sdk_atoll"/>
+		<property name="password" value="sdk"/>
+	</properties>
+	
+	<watermark_config>
+		<property name="WatermarkPosition" value="BOTTOM_RIGHT" />
+		<property name="WatermarkText" value="" />
+		<property name="WatermarkLogo" value="" />
+	</watermark_config>
+
+	<preview-modules>
+	
+		<preview-module name="CommonImage">
+			<description>Встроенный сервис просмотра изображений</description>
+			<supported-formats>PNG,GIF,JPG,JPEG,BMP</supported-formats>
+			<viewer-class>ru.ot.filepreview.client.viewers.singlepageviewer.SinglePageViewer</viewer-class>
+			<converter-class>ru.ot.filepreview.server.converters.CommonImage2PngConverter</converter-class>
+			<!-- <parameter name="preserveFormat" value="JPG,JPEG"/> --> 
+			<parameter name="Watermark" value="true" />
+		</preview-module>
+
+		<preview-module name="SVGImage">
+			<description>Сервис просмотра SVG (Batik)</description>
+			<supported-formats>SVG</supported-formats>
+			<viewer-class>ru.ot.filepreview.client.viewers.singlepageviewer.SinglePageViewer</viewer-class>
+			<converter-class>ru.ot.filepreview.server.converters.Svg2PngConverter</converter-class>
+			<parameter name="Watermark" value="true" />
+		</preview-module>
+
+		<preview-module name="TIFImage">
+			<description>Сервис просмотра TIF (ImageCodec)</description>
+			<supported-formats>TIF,TIFF</supported-formats>
+			<viewer-class>ru.ot.filepreview.client.viewers.singlepageviewer.SinglePageViewer</viewer-class>
+			<converter-class>ru.ot.filepreview.server.converters.Tiff2PngConverter</converter-class>
+			<parameter name="Watermark" value="true" />
+		</preview-module>
+
+		<preview-module name="PDFTrapper">
+			<description>PDF без конвертации</description>
+			<supported-formats>PDF</supported-formats>
+			<viewer-class>ru.ot.filepreview.client.viewers.multipageviewer.MultiPageViewer</viewer-class>
+			<converter-class>ru.ot.filepreview.server.converters.PdfNoConverter</converter-class>
+			<parameter name="Watermark" value="true" />
+		</preview-module>
+
+		<preview-module name="MultiBlobDoc">
+			<description>Cервис просмотра документов, состоящих из нескольких файлов</description>
+			<supported-formats>MULTIBLOB</supported-formats>
+			<viewer-class>ru.ot.filepreview.client.viewers.multipageviewer.MultiBlobViewer</viewer-class>
+			<converter-class>ru.ot.filepreview.server.converters.MultiBlobPngConverter</converter-class>
+			<!-- Список идентификаторов DOC_CARD_GROUPS:DOC_CARD_KINDS, 
+			     которые мы должны считать мультиблобами независимо от реального количества блобов в них-->
+			<parameter name="multiblobDocCardKind" value="ФАЙЛЫ ХПД:ДОКУМЕНТ ДЕЛА СКВАЖИНЫ"/>	
+			<parameter name="Watermark" value="false" />		
+		</preview-module>
+		
+		<preview-module name="CubeService">
+			<description>Встроенный сервис просмотра нарезок кубов</description>
+			<supported-formats>EGRID,ROFF</supported-formats>
+			<viewer-class>ru.ot.filepreview.client.viewers.cubeviewer.CubeViewerBlock</viewer-class>
+			<converter-class>ru.ot.filepreview.server.converters.CubeSlice2PngConverter</converter-class>
+			<parameter name="Watermark" value="false" />
+		</preview-module>
+	
+		<preview-module name="SeismicView">
+			<description>Встроенный сервис просмотра сейсмических разрезов в формате SEG-Y</description>
+			<supported-formats>SGY,SEGY,CST,DAT</supported-formats>
+			<viewer-class>ru.ot.filepreview.client.viewers.seismicviewer.SeismicViewer</viewer-class>
+			<converter-class>ru.ot.filepreview.server.converters.SeismicFile2PngConverter</converter-class>
+			<parameter-set name="Palettes">
+			 	<parameter name="По умолчанию" value="{blue,white,red}"/>
+			 	<parameter name="Монохром бело-черный" value="{white,black}"/>
+			 	<parameter name="Монохром черно-белый" value="{black,white}"/>
+			 	<parameter name="Экстремумы" value="{cyan,black,white,red,yellow},{0.0,0.05,0.5,0.95,1.0}"/>
+			 	<parameter name="Сине-бело-красная" value="{#000090,#05059A,#0A0AA4,#1010AE,#7878B8,#A5A5D8,#D7D7F5,#FFFFFF,#FFD7D7,#F6A5A5,#E07878,#D61010,#CC0A0A,#C20505,#B80000},{0.0,0.1,0.2,0.3,0.35,0.4,0.45,0.5,0.55,0.6,0.65,0.7,0.8,0.9,1.0}"/>
+			 	<parameter name="Радуга" value="{blue,cyan,green,yellow,red,magenta}"/>
+			 	<parameter name="Черная радуга" value="{black,blue,cyan,green,yellow,red,magenta}"/>
+			 	<parameter name="Холодное-горячее" value="{black,blue,white,yellow,magenta,red},{0.0,0.24,0.48,0.76,0.90,1.0}"/>
+			 	<parameter name="Черно-бело-оранжевая" value="{black,white,#FF8200}"/>
+			 	<parameter name="Черно-бело-красная" value="{black,darkGray,white,yellow,#E01E1E,#CC0A0A},{0.0,0.4,0.5,0.55,0.6,1.0}"/>
+			 	<parameter name="Монохром черно-бело-черный" value="{black,white,black}"/>
+			 	<parameter name="Монохром бело-черно-белый" value="{white,black,white}"/>
+			 	<parameter name="Радуга зеркальная" value="{magenta,red,yellow,green,cyan,blue,cyan,green,yellow,red,magenta}"/>
+			 	<parameter name="Черная радуга зеркальная" value="{blue,green,yellow,red,magenta,black}"/>
+			 	<parameter name="Коричневая" value="{#FFFF00,#EEE003,#DCC106,#CBA209,#B9830D,#A86410,#964513,#9B4C1C,#9F5426,#A35B2F,#A76238,#AB6A42,#AF714B,#B37954,#B8805E,#BC8767,#C08F70,#C4967A,#C89D83,#CCA58C,#D0AC96,#D5B39F,#D9BBA9,#DDC2B2,#E1CABB,#E5D1C5,#E9D8CE,#EDE0D7,#F2E7E1,#F6EEEA,#FAF6F3,#FEFDFD,#F7F7F7,#EDEDED,#E2E2E2,#D8D8D8,#CECECE,#C3C3C3,#B9B9B9,#AEAEAE,#A4A4A4,#999999,#8F8F8F,#858585,#7A7A7A,#707070,#656565,#5B5B5B,#515151,#464646,#3C3C3C,#313131,#272727,#1D1D1D,#121212,#080808,#00040A,#001531,v002658,#00377F,#0048A7,#0059CE,#006BF5,#006FFF}"/>
+			</parameter-set>
+			<parameter name="Watermark" value="false" />
+		</preview-module>
+		
+		<preview-module name="LogView">
+			<description>Встроенный сервис просмотра каротажных кривых в формате LAS, LIS и DLIS</description>
+			<supported-formats>LAS,LIS,DLIS</supported-formats>
+			<viewer-class>ru.ot.filepreview.client.viewers.logviewer.LogViewer</viewer-class>
+			<converter-class>ru.ot.filepreview.server.converters.LogFileConverter</converter-class>
+		</preview-module>		
+					
+		<preview-module name="WMFImage">
+			<description>Сервис просмотра Windows Meta File (WMFTranscoder)</description>
+			<supported-formats>WMF</supported-formats>
+			<viewer-class>ru.ot.filepreview.client.viewers.singlepageviewer.SinglePageViewer</viewer-class>
+			<converter-class>ru.ot.filepreview.server.converters.Wmf2PngConverter</converter-class>
+			<parameter name="Watermark" value="false" />
+		</preview-module>
+		
+		<preview-module name="CGMImage">
+			<description>Встроенный сервис просмотра CGM</description>
+			<supported-formats>CGM</supported-formats>
+			<viewer-class>ru.ot.filepreview.client.viewers.singlepageviewer.SinglePageViewer</viewer-class>
+			<converter-class>ru.ot.filepreview.server.converters.Cgm2PngConverter</converter-class>
+			<parameter name="Watermark" value="false" />
+		</preview-module>
+		
+		<preview-module name="GridServlet">
+			<description>Surfer Demo 11</description>
+			<supported-formats>GRD</supported-formats>
+			<viewer-class>ru.ot.filepreview.client.viewers.gridviewer.GridViewerBlock</viewer-class>
+			<converter-class>ru.ot.filepreview.server.converters.SurferGrid2PngConverter</converter-class>
+			<parameter name="SurferScripter" value="D:\opt\Golden Software\Surfer Demo 12\Scripter\Scripter.exe"/>
+			<parameter name="TimeOut" value="200000" />
+			<parameter-set name="RenderType">
+			 	<parameter name="Name" value="CONTOUR_MAP"/>
+			 	<parameter name="Description" value="Contour Map"/>
+			 	<parameter name="Script" value="ru/ot/filepreview/server/converters/resources/grid/template_ContourMap.bas"/>
+				<parameter-set name="RenderParameter">
+				 	<parameter name="Name" value="LEVELS_1"/>
+				 	<parameter name="Description" value="Rainbow Light"/>
+				 	<parameter name="Resource" value="ru/ot/filepreview/server/converters/resources/grid/levels1.lvl"/>
+				 </parameter-set>
+				<parameter-set name="RenderParameter">
+				 	<parameter name="Name" value="LEVELS_2"/>
+				 	<parameter name="Description" value="Terrain"/>
+				 	<parameter name="Resource" value="ru/ot/filepreview/server/converters/resources/grid/levels2.lvl"/>
+				 </parameter-set>
+			</parameter-set>
+			<parameter-set name="RenderType">
+			 	<parameter name="Name" value="RELIEF_MAP"/>
+			 	<parameter name="Description" value="Relief Map"/>
+			 	<parameter name="Script" value="ru/ot/filepreview/server/converters/resources/grid/template_ReliefMap.bas"/>
+				<parameter-set name="RenderParameter">
+				 	<parameter name="Name" value="COLORMAP_1"/>
+				 	<parameter name="Description" value="Dirt"/>
+				 	<parameter name="Resource" value="ru/ot/filepreview/server/converters/resources/grid/colormap1.clr"/>
+				 </parameter-set>
+				<parameter-set name="RenderParameter">
+				 	<parameter name="Name" value="COLORMAP_2"/>
+				 	<parameter name="Description" value="Blues 3"/>
+				 	<parameter name="Resource" value="ru/ot/filepreview/server/converters/resources/grid/colormap2.clr"/>
+				 </parameter-set>
+			</parameter-set>
+			<parameter name="Watermark" value="false" />
+		</preview-module>
+		
+		<preview-module name="LibreOffice">
+			<description>LibreOffice</description>
+			<supported-formats>XLS,XLSX,DOC,DOCX,PPT,PPTX,TXT</supported-formats>
+			<viewer-class>ru.ot.filepreview.client.viewers.multipageviewer.MultiPageViewer</viewer-class>
+			<converter-class>ru.ot.filepreview.server.converters.LibreOffice2PdfConverter</converter-class>
+			<parameter name="InstallDir" value="C:\opt\LibreOffice\program\"/>
+			<parameter name="TimeOut" value="200000" />
+			<parameter name="Watermark" value="true" />
+		</preview-module>
+		
+		<preview-module name="ESRI Shapefile">
+            <description>Сервис просмотра ESRI Shapefile</description>
+            <supported-formats>SHP</supported-formats>
+            <viewer-class>ru.ot.filepreview.client.viewers.singlepageviewer.SinglePageViewer</viewer-class>
+            <converter-class>ru.ot.filepreview.server.converters.Shp2PngConverter</converter-class>
+        </preview-module>
+		
+	</preview-modules>
+
+</preview_config>

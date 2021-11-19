@@ -1,0 +1,20 @@
+@def fontColor rgb(105, 105, 105);
+@def hoverColor rgb(154, 198, 231);
+@def selectedColor rgb(144, 185, 216);
+@def hoverSelectedColor rgb(154, 198, 231);
+
+.cellTreeWidget {
+	max-width: 259px;
+	border-top: 1px solid rgb(230, 230, 230);
+}
+
+.cellTreeItemValue {
+	/*font-family: 'proxima_nova';*/
+	font-size: 12px;
+}
+
+.cellTreeItem a {
+	/*font-family: 'proxima_nova';*/
+	font-size: 12px;
+	color: fontColor;
+}

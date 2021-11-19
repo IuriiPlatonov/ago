@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<params>
+	<atoll>
+		<user>core_base</user>
+		<password>base</password>
+		<url>jdbc:oracle:thin:@185.40.76.81:1521:MPDEV</url>
+		<service-user>ATOLL_SERVICE</service-user>
+		<service-password>ATOLL_SERVICE</service-password>
+	</atoll>
+
+	<tm>
+		<path>http://mine-pro.ot-oil.com:8080/TaskManager_MinePRO/minepro/rest/tm</path>
+		<servletpath>http://mine-pro.ot-oil.com:8080/TaskManager_MinePRO/OT_300_TaskManager</servletpath>
+	</tm>
+
+	<properties>
+		<property name="connectionString" value="jdbc:oracle:thin:@185.40.76.81:1521:MPDEV" />
+		<property name="proxyUser" value="SDK_ATOLL" />
+		<property name="proxyPassword" value="sdk" />
+		<!-- You can create proxy connections using any one of the following options: USER_NAME,DISTINGUISHED NAME,CERTIFICATE 
+			(see Oracle doc). ora_proxy_type = NONE if no proxy connection is used. Only USER_NAME, NONE available now -->
+		<!-- У нас на dev нет никакого AD -->
+		<property name="proxyType" value="NONE" />
+		<property name="databaseType" value="ora" />
+		<property name="defaultOrganization" value="Заполярный филиал" />
+		<property name="defaultUserPolitic" value="ОТ.932_-_ДОСТУПНЫЕ_ОЕ" />
+		<property name="setDefaultUserPoliticAndFunc" value="true" />
+		<property name="defaultUserPwd" value="1" />
+
+
+		<property-set name="ldapSettings">
+			<property name="ldapUrl" value="ldap://ldap.tec:389" />
+			<property name="ldapUser" value="tomcathpd" />
+			<property name="ldapPassword" value="!QAZ2wsx" />
+			<property name="ldapSearchBase" value="dc=tec" />
+			<property name="ldapGroup" value="CN=W,OU=group,OU=site,DC=tec" />
+
+			<property-set name="accountName">
+				<property name="ldapAttribute" value="sAMAccountName" />
+				<property name="action" value="copy" />
+			</property-set>
+			<property-set name="familyName">
+				<property name="ldapAttribute" value="displayName" />
+				<property name="action" value="extractWord" />
+				<property name="wordIndex" value="1" />
+			</property-set>
+			<property-set name="name">
+				<property name="ldapAttribute" value="displayName" />
+				<property name="action" value="extractWord" />
+				<property name="wordIndex" value="2" />
+			</property-set>
+			<property-set name="lastName">
+				<property name="ldapAttribute" value="displayName" />
+				<property name="action" value="extractWord" />
+				<property name="wordIndex" value="3" />
+			</property-set>
+			<property-set name="postName">
+				<property name="ldapAttribute" value="description" />
+				<property name="action" value="copy" />
+			</property-set>
+			<property-set name="buName">
+				<property name="ldapAttribute" value="Company" />
+				<property name="action" value="copy" />
+			</property-set>
+			<property-set name="email">
+				<property name="ldapAttribute" value="mail" />
+				<property name="action" value="copy" />
+			</property-set>
+
+		</property-set>
+
+		<property-set name="LdapUserGroups">
+			<property name="availableGroups" value="Админимтраторы;Пользователи" />
+
+			<property-set name="Админимтраторы">
+				<property name="groupDn" value="CN=W,OU=group,OU=site,DC=tec" />
+				<property name="politicians" value="ОТ.932_-_ДОСТУПНЫЕ_ОЕ" />
+				<property name="functions" value="OT.100.APP.SF.003;OT.118.APP.SF.002;OT.118.APP.SF.005" />
+			</property-set>
+
+			<property-set name="Пользователи">
+				<property name="groupDn" value="CN=OO,OU=group,OU=site,DC=tec" />
+				<property name="politicians" value="ОТ.932_-_ДОСТУПНЫЕ_ОЕ" />
+				<property name="functions" value="OT.100.APP.SF.003" />
+			</property-set>
+
+		</property-set>
+
+
+		<property name="isArchive" value="false" />
+
+		<!-- Параметры идентификаторов приложений: АТОЛЛА, ХПД и конкретного продукта -->
+		<property-set name="Applications">
+			<property name="atollApp" value="OT.100" />
+			<property name="commonProductApp" value="OT.131" />
+			<property name="productApp" value="OT.932.2" />
+		</property-set>
+
+		<!-- Параметры для асинхронного сохранения blob'ов -->
+		<property-set name="asyncBlob">
+			<property name="user" value="SDK_ATOLL" />
+			<property name="password" value="sdk" />
+			<property name="numberThreads" value="5" />
+			<property name="maxSpeed" value="0" />
+			<property name="reconnectTimeout" value="1000" />
+			<property name="connectTimeout" value="1000" />
+			<property name="bufferSize" value="1024000" />
+			<property name="maxCacheSizeMB" value="500" />
+			<property name="cacheFileName" value="C:/resource/cache-minepro.db3" />
+			<property name="dataSourceType" value="ORACLE" />
+		</property-set>
+		<property-set name="arcgis">
+			<!-- Используется если свойство не задано в БД - ADM_COMMON.GET_VALUE_APPPRP('OT.100', '7027') (ADM_FILE_STORAGES) -->
+			<property name="syncPath" value="D:\arcgis\Проекты прогнозирования" />
+			<!-- Используется всегда syncPath, если syncPathPriority.value = true -->
+			<!-- <property name="syncPathPriority" value="true" /> -->
+			<property-set name="template">
+				<property name="dir" value="D:\arcgis\Шаблон ГИС проекта" />
+				<property name="mxd-path" value="MXD\Шаблон нового проекта прогнозирования.mxd" />
+			</property-set>
+			<property-set name="rest">
+				<property name="read-structure" value="http://10.100.22.96:8383/arcgis-utils/rest/mxd/read-structure" />
+				<property name="write-structure" value="http://10.100.22.96:8383/arcgis-utils/rest/mxd/write-structure" />
+			</property-set>
+		</property-set>
+
+		<!-- Параметры действий с файлами Библиотеки: выгрузка на сетевой ресурс, создание превью -->
+		<property-set name="hpdFiles">
+			<property name="downloadArchiveType" value="ZIP" />
+			<!-- Размер, начиная с которого предлагать выгрузку на сетевой ресурс. в мегабайтах -->
+			<property name="filesSizeMaxLimit" value="20" />
+
+			<property-set name="filesSavingPlaces">
+				<property name="\\VRN-MinePRO\upload" value="D:\resource\DEVELOP\upload\" />
+			</property-set>
+			<property-set name="uploadPlaces">
+				<property name="\\VRN-MinePRO\upload" value="D:\resource\DEVELOP\upload\" />
+			</property-set>
+			<property-set name="createPreview">
+				<property name="largeScale" value="23" />
+				<property name="smallScale" value="12.5" />
+				<property name="scanDpi" value="150" />
+			</property-set>
+		</property-set>
+
+		<!-- Группа параметров для обращения Apache Solr и для вызова индексации документов "на лету", в момент работы приложения -->
+		<property-set name="solrIndex">
+			<property name="commitThreshold" value="1000" />
+			<property name="fieldTransform" value="translit" />
+			<property name="activeThreadCount" value="10" />
+			<property name="useEmbedded" value="0" />
+			<property name="propagateSolrAttr" value="all" />
+			<!-- по сколько записей будем запрашивать из солр за один раз -->
+			<property name="solrPageSize" value="200" />
+			<property name="useAutocommit" value="false" />
+		</property-set>
+
+		<!-- Алгоритмы, специфичные для ИТ решения -->
+		<property-set name="CustomAlgorithm">
+			<property name="path" value="com.otoil.ot_932_5_0040.server.NorilskAlgoritmProvider" />
+			<property-set name="fileKinds">
+				<property name="SHP" value="ФАЙЛ ПРОГНОЗ" />
+			</property-set>
+			<property name="expandLevelCount" value="1" />
+		</property-set>
+
+		<!-- Сервис для запуска Micromine -->
+		<property-set name="micromine">
+			<property-set name="service">
+				<property name="url" value="http://localhost:5005" />
+				<property name="folder" value="\\VRN-MINEPRO\micromine" />
+				<property name="version" value="1.34.5" />
+				<property name="interpolation23" value="1.34.6" />
+				<property name="exportHoles23" value="1.34.12;2.1.8" />
+				<!-- property name="timeout" value="60000" / -->
+				<property-set name="timeouts">
+					<property name="micro" value="5000" />
+					<property name="GetForms" value="5000" />
+					<property name="show" value="60000" />
+					<property name="holes_show" value="60000" />
+					<property name="MaterialAndIndexes" value="5000" />
+					<property name="interpolation" value="3600000" />
+					<property name="SetIfaceEnabled" value="5000" />
+				</property-set>
+			</property-set>
+
+			<property-set name="mapProperty">
+				<property-set name="геология">
+					<property-set name="mapNameProperty">
+						<property name="Заголовок" value=""></property>
+						<property name="ЗАЛЕЖЬ" value="ЗАЛЕЖЬ"></property>
+						<property name="Код" value="ССЫЛКА НА РУДНОЕ ТЕЛО"></property>
+						<property name="ПАНЕЛЬ" value="ССЫЛКА НА ЭЛЕМЕНТ ДОБЫЧНОГО ПОЛЯ ОСН"></property>
+						<property name="МАТЕРИАЛ" value="ССЫЛКА НА БАЛАНСОВЫЙ ТИП ГМ"></property>
+						<property name="ОБЪЕМНЫЙ ВЕС" value="ОБЪЕМНЫЙ ВЕС"></property>
+						<property name="АЗИМУТ" value="АЗИМУТ"></property>
+						<property name="ПОГРУЖЕНИЕ" value="ПОГРУЖЕНИЕ"></property>
+						<property name="ВРАЩЕНИЕ" value="ВРАЩЕНИЕ"></property>
+						<property name="ОРГАНИЗАЦИЯ" value="ССЫЛКА НА ОРГАНИЗАЦИЯ"></property>
+						<property name="ДОБЫЧНОЕ ПОЛЕ" value="ССЫЛКА НА ДОБЫЧНОЕ ПОЛЕ"></property>
+						<property name="ТЕХНОЛОГИЧЕСКАЯ СЕТЬ" value="ССЫЛКА НА ТЕХНОЛОГИЧЕСКУЮ СЕТЬ"></property>
+						<property name="СТАТУС КЛАССИФИКАЦИИ" value="СТАТУС КЛАССИФИКАЦИИ"></property>
+						<property name="СТАТУС СОГЛАСОВАНИЯ" value="СТАТУС СОГЛАСОВАНИЯ КАРКАСА"></property>
+						<property name="ДАТА СОГЛАСОВАНИЯ" value="ДАТА СОГЛАСОВАНИЯ"></property>
+						<property name="ФИО СОГЛАСУЮЩЕГО" value="ССЫЛКА НА СОГЛАСУЮЩЕГО"></property>
+						<property name="Цвет" value="ЦВЕТ"></property>
+						<property name="НАБОР ЭЛЕМЕНТОВ ДП" value="ССЫЛКА НА НАБОР ЭЛЕМЕНТОВ ДОБЫЧНОГО ПОЛЯ"></property>
+						<property name="НОМЕР" value="УНИКАЛЬНЫЙ НОМЕР ЗНАЧЕНИЯ ХАРАКТЕРИСТИКИ"></property>
+						<property name="КСЕНОЛИТ" value="КСЕНОЛИТ"></property>
+						<property name="ЛИНЗА" value="ЛИНЗА"></property>
+						<property name="Заголовок" value="ССЫЛКА НА ГОРНАЯ ВЫРАБОТКА"></property>
+						<property name="Штриховка среза" value="ШТРИХОВКА СРЕЗА"></property>
+						<property name="Штриховка силуэта" value="ШТРИХОВКА СИЛУЭТА"></property>
+						<property name="Расположение метки" value="РАСПОЛОЖЕНИЕ МЕТКИ"></property>
+						<property name="Смещение" value="СМЕЩЕНИЕ"></property>
+					</property-set>
+					<property-set name="formatProperty">
+						<property name="СТАТУС КЛАССИФИКАЦИИ" value="Классифицирован/Не классифицирован"></property>
+						<property name="КСЕНОЛИТ" value="Да/Нет"></property>
+						<property name="ЛИНЗА" value="Да/Нет"></property>
+						<property name="ДАТА СОГЛАСОВАНИЯ" value="yyyy-MM-dd"></property>
+					</property-set>
+					<property-set name="paramsOrder">
+						<property name="ПОРЯДОК"
+							value="Заголовок, Код, Цвет, ЗАЛЕЖЬ, КСЕНОЛИТ, ЛИНЗА, ПАНЕЛЬ, НАБОР ЭЛЕМЕНТОВ ДП, МАТЕРИАЛ, НОМЕР, ОБЪЕМНЫЙ ВЕС, АЗИМУТ, ПОГРУЖЕНИЕ, ВРАЩЕНИЕ, ОРГАНИЗАЦИЯ, ДОБЫЧНОЕ ПОЛЕ, ТЕХНОЛОГИЧЕСКАЯ СЕТЬ, СТАТУС КЛАССИФИКАЦИИ, СТАТУС СОГЛАСОВАНИЯ, ДАТА СОГЛАСОВАНИЯ, ФИО СОГЛАСУЮЩЕГО, Штриховка среза, Штриховка силуэта, Расположение метки, Смещение"></property>
+					</property-set>
+				</property-set>
+
+				<property-set name="маркшейдерия">
+					<property-set name="mapNameProperty">
+						<property name="Заголовок" value="ССЫЛКА НА ГОРНАЯ ВЫРАБОТКА"></property>
+						<property name="КАТЕГОРИЯ" value="ССЫЛКА НА КАТЕГОРИЮ ГОРНЫХ РАБОТ (ОТ РАБОТЫ)"></property>
+						<property name="Код" value="ССЫЛКА НА КАТЕГОРИЮ ГОРНЫХ РАБОТ (ОТ РАБОТЫ)"></property>
+						<property name="ЗАЛЕЖЬ" value="ЗАЛЕЖЬ"></property>
+						<property name="МАРК БЛОК" value="МАРКШЕЙДЕРСКИЙ БЛОК"></property>
+						<property name="ДАТА" value="ДАТА ОКОНЧАНИЯ ГОРНОЙ РАБОТЫ (ОТ РАБОТЫ)"></property>
+						<property name="ТОЧНОСТЬ" value="ТОЧНОСТЬ"></property>
+						<property name="ЛЕГЕНДА" value="ЛЕГЕНДА"></property>
+						<property name="СЕГМЕНТ" value="ССЫЛКА НА СЕГМЕНТ (ОТ РАБОТЫ)"></property>
+						<property name="ТИП КАРКАСА" value="ССЫЛКА НА ТИП КАРКАСА"></property>
+						<property name="ОРГАНИЗАЦИЯ" value="ССЫЛКА НА ОРГАНИЗАЦИЯ"></property>
+						<property name="ТЕХНОЛОГИЧЕСКАЯ СЕТЬ" value="ССЫЛКА НА ТЕХНОЛОГИЧЕСКУЮ СЕТЬ"></property>
+						<property name="РАБОТА" value="ССЫЛКА НА РАБОТА"></property>
+						<property name="Цвет" value="ЦВЕТ"></property>
+						<property name="Штриховка среза" value="ШТРИХОВКА СРЕЗА"></property>
+						<property name="Штриховка силуэта" value="ШТРИХОВКА СИЛУЭТА"></property>
+						<property name="Расположение метки" value="РАСПОЛОЖЕНИЕ МЕТКИ"></property>
+						<property name="Смещение" value="СМЕЩЕНИЕ"></property>
+						<!-- <property name="ММ_ГГ" value="ДАТА ОКОНЧАНИЯ ГОРНОЙ РАБОТЫ (ОТ РАБОТЫ)"></property> -->
+					</property-set>
+					<property-set name="formatProperty">
+						<property name="ДАТА" value="yyyy-MM-dd"></property>
+					</property-set>
+					<property-set name="paramsOrder">
+						<property name="ПОРЯДОК"
+							value="Заголовок, Код, Цвет, КАТЕГОРИЯ, ЗАЛЕЖЬ, МАРК БЛОК, ДАТА, ТОЧНОСТЬ, ЛЕГЕНДА, СЕГМЕНТ, ТИП КАРКАСА, ОРГАНИЗАЦИЯ, ТЕХНОЛОГИЧЕСКАЯ СЕТЬ, РАБОТА, Штриховка среза, Штриховка силуэта, Расположение метки, Смещение"></property>
+					</property-set>
+				</property-set>
+				<property-set name="проектирование">
+					<property-set name="mapNameProperty">
+						<property name="Заголовок" value="ССЫЛКА НА ГОРНАЯ ВЫРАБОТКА"></property>
+						<property name="КАТЕГОРИЯ" value="ССЫЛКА НА КАТЕГОРИЮ ГОРНЫХ РАБОТ (ОТ РАБОТЫ)"></property>
+						<property name="Код" value="ССЫЛКА НА ВИД ГОРНЫХ РАБОТ (ОТ РАБОТЫ)"></property>
+						<property name="ЗАЛЕЖЬ" value="ЗАЛЕЖЬ"></property>
+						<property name="ПРОЕКТ" value="ССЫЛКА НА СЦЕНАРИЙ"></property>
+						<property name="СТАДИЯ" value="ССЫЛКА НА СТАДИЮ ГОРНОЙ РАБОТЫ (ОТ РАБОТЫ)"></property>
+						<property name="ДАТА" value="ДАТА ОКОНЧАНИЯ ГОРНОЙ РАБОТЫ (ОТ РАБОТЫ)"></property>
+						<property name="СЕЧЕНИЕ" value="ССЫЛКА НА СЕЧЕНИЕ (ОТ РАБОТЫ)"></property>
+						<property name="ОРГАНИЗАЦИЯ" value="ССЫЛКА НА ОРГАНИЗАЦИЯ"></property>
+						<property name="ТЕХНОЛОГИЧЕСКАЯ СЕТЬ" value="ССЫЛКА НА ТЕХНОЛОГИЧЕСКУЮ СЕТЬ"></property>
+						<property name="ЭЛЕМЕНТ ДОБ ПОЛЯ ОСН" value="ССЫЛКА НА ЭЛЕМЕНТ ДОБЫЧНОГО ПОЛЯ ОСН"></property>
+						<property name="ВЫРАБОТКА" value="ССЫЛКА НА ГОРНАЯ ВЫРАБОТКА"></property>
+						<property name="РАБОТА" value="ССЫЛКА НА РАБОТА"></property>
+						<property name="Цвет" value="ЦВЕТ"></property>
+						<property name="Штриховка среза" value="ШТРИХОВКА СРЕЗА"></property>
+						<property name="Штриховка силуэта" value="ШТРИХОВКА СИЛУЭТА"></property>
+						<property name="Расположение метки" value="РАСПОЛОЖЕНИЕ МЕТКИ"></property>
+						<property name="Смещение" value="СМЕЩЕНИЕ"></property>
+					</property-set>
+					<property-set name="formatProperty">
+						<property name="ДАТА" value="yyyy-MM-dd"></property>
+					</property-set>
+					<property-set name="paramsOrder">
+						<property name="ПОРЯДОК"
+							value="Заголовок, Код, Цвет, КАТЕГОРИЯ, ЗАЛЕЖЬ, ПРОЕКТ, СТАДИЯ, ДАТА, СЕЧЕНИЕ, ОРГАНИЗАЦИЯ, ТЕХНОЛОГИЧЕСКАЯ СЕТЬ, ЭЛЕМЕНТ ДОБ ПОЛЯ ОСН, ВЫРАБОТКА, РАБОТА, Штриховка среза, Штриховка силуэта, Расположение метки, Смещение"></property>
+					</property-set>
+				</property-set>
+			</property-set>
+		</property-set>
+
+		<property-set name="tridbFiles">
+			<property name="path" value="D:/opt/files/tridb/template.tridb" />
+		</property-set>
+		<property-set name="strFileAttrs">
+			<property-set name="ОКТЯБРЬСКИЙ">
+				<property name="Плановое направление" value="Строка=Название,Имя;Название" />
+				<property name="Шахта" value="Строка=Шахта;Шахта" />
+				<property name="Участок" value="Строка=Участок;Участок" />
+				<property name="X" value="Вещественное=X,EAST;EAST" />
+				<property name="Y" value="Вещественное=Y,NORTH;NORTH" />
+				<property name="Z" value="Вещественное=Z,RL;RL" />
+				<property name="Связи" value="Строка=JOIN;JOIN" />
+				<property name="Основной элемент добычного поля" value="Строка=ID;ID" />
+				<property name="Выработка" value="Строка=ID;ID" />
+				<property name="Залежь" value="Строка=Залежь;Залежь" />
+				<property name="Панель" value="Строка=Панель;Панель" />
+				<property name="Лента" value="Строка=Лента;Лента" />
+				<property name="Тип_Г_М" value="Строка=Тип_Г_М;Тип_Г_М" />
+				<property name="Тип_Работ" value="Строка=Тип_Работ;Тип_Работ" />
+				<property name="STRING" value="Строка=STRING;STRING" />
+			</property-set>
+			<property-set name="ТАЙМЫРСКИЙ">
+				<property name="Плановое направление" value="Строка=Название,Имя,STRING;Название" />
+				<property name="Шахта" value="Строка=Шахта;Шахта" />
+				<property name="Участок" value="Строка=Участок;Участок" />
+				<property name="X" value="Вещественное=X,EAST;EAST" />
+				<property name="Y" value="Вещественное=Y,NORTH;NORTH" />
+				<property name="Z" value="Вещественное=Z,RL;RL" />
+				<property name="Связи" value="Строка=JOIN;JOIN" />
+				<property name="Основной элемент добычного поля" value="Строка=ID;ID" />
+				<property name="Выработка" value="Строка=ID;ID" />
+				<property name="Залежь" value="Строка=Залежь;Залежь" />
+				<property name="Панель" value="Строка=Панель;Панель" />
+				<property name="Лента" value="Строка=Лента;Лента" />
+				<property name="Тип_Г_М" value="Строка=Тип_Г_М,тип ГМ;Тип_Г_М" />
+				<property name="Тип_Работ" value="Строка=Тип_Работ,тип работ;Тип_Работ" />
+				<property name="STRING" value="Строка=STRING;STRING" />
+			</property-set>
+			<property-set name="КОМСОМОЛЬСКИЙ">
+                <property name="Плановое направление" value="Строка=Имя;Имя" />
+                <property name="Участок" value="Строка=Участок;Участок" />
+                <property name="X" value="Вещественное=X,EAST;EAST" />
+                <property name="Y" value="Вещественное=Y,NORTH;NORTH" />
+                <property name="Z" value="Вещественное=Z,RL;RL" />
+                <property name="Связи" value="Строка=JOIN;JOIN" />
+                <property name="Тип_Работ" value="Строка=Тип Работ,тип работ;Тип Работ" />
+                <property name="STRING" value="Строка=STRING;STRING" />
+            </property-set>
+			<property-set name="КОМС_СКАЛИСТАЯ">
+				<property name="Плановое направление" value="Строка=Название,Имя,STRING;Название" />
+				<property name="Шахта" value="Строка=Шахта;Шахта" />
+				<property name="Участок" value="Строка=Участок;Участок" />
+				<property name="X" value="Вещественное=X,EAST;EAST" />
+				<property name="Y" value="Вещественное=Y,NORTH;NORTH" />
+				<property name="Z" value="Вещественное=Z,RL;RL" />
+				<property name="Связи" value="Строка=JOIN;JOIN" />
+				<property name="Тип_Г_М" value="Строка=Тип ГМ,тип ГМ;Тип ГМ" />
+				<property name="Тип_Работ" value="Строка=Тип Работ,тип работ;Тип Работ" />
+				<property name="Профиль" value="Строка=Профиль;Профиль" />
+				<property name="STRING" value="Строка=STRING;STRING" />
+			</property-set>
+			<property-set name="КГМК_СЕВЕРНЫЙ">
+				<property name="Плановое направление" value="Строка=Название,Имя,D1;D1" />
+				<property name="Шахта" value="Строка=Шахта;Шахта" />
+				<property name="Участок" value="Строка=Участок;Участок" />
+				<property name="X" value="Вещественное=X,EAST;X" />
+				<property name="Y" value="Вещественное=Y,NORTH;Y" />
+				<property name="Z" value="Вещественное=Z,RL;Z" />
+				<property name="Связи" value="Строка=JOIN,CODE;CODE" />
+				<property name="Основной элемент добычного поля" value="Строка=ID;ID" />
+				<property name="Выработка" value="Строка=ID;ID" />
+				<property name="STRING" value="Строка=STRING;STRING" />
+			</property-set>
+			<property-set name="ЗАПОЛЯРНЫЙ">
+				<property name="Плановое направление" value="Строка=Название,Имя,Наименование;Наименование" />
+				<property name="X" value="Вещественное=X,EAST;EAST" />
+				<property name="Y" value="Вещественное=Y,NORTH;NORTH" />
+				<property name="Z" value="Вещественное=Z,RL;RL" />
+				<property name="Связи" value="Строка=JOIN;JOIN" />
+				<property name="Основной элемент добычного поля" value="Строка=ID;ID" />
+				<property name="Выработка" value="Строка=ID;ID" />
+				<property name="Панель" value="Строка=Панель;Панель" />
+				<property name="Тип_Г_М" value="Строка=Тип_Г_М;Тип_Г_М" />
+				<property name="Тип_Работ" value="Строка=Тип_Работ;Тип_Работ" />
+				<property name="STRING" value="Строка=STRING;STRING" />
+			</property-set>
+			<property-set name="paramsOrder">
+				<property name="ОКТЯБРЬСКИЙ"
+					value="EAST,NORTH,RL,STRING,JOIN,Шахта,Участок,Название,Залежь,Панель,Лента,Тип_Г_М,Тип_Работ,STRING" />
+				<property name="ТАЙМЫРСКИЙ"
+					value="EAST,NORTH, RL,STRING,JOIN,Шахта,Участок,Название,Залежь,Панель,Лента,Тип_Г_М,Тип_Работ,STRING" />
+				<property name="КОМСОМОЛЬСКИЙ"  value="EAST,NORTH,RL,STRING,JOIN,Имя,Участок,Тип_Работ,STRING" />
+				<property name="КОМС_СКАЛИСТАЯ"	value="EAST,NORTH,RL,STRING,JOIN,Имя,Шахта,Профиль,Участок,Тип Работ,Тип ГМ,STRING" />
+				<property name="КГМК_СЕВЕРНЫЙ" value="X,Y,Z,D1,CODE,STRING,Шахта,Участок,STRING" />
+				<property name="ЗАПОЛЯРНЫЙ" value="EAST,NORTH,RL,STRING,JOIN,Наименование,Тип_Г_М,Тип_Работ,Панель,STRING" />
+			</property-set>
+		</property-set>
+
+		<property-set name="loadHistory">
+			<property name="threadCount" value="8" />
+			<property-set name="ОКТЯБРЬСКИЙ">
+				<property name="defaultExcavationKind" value="ЗФ_КАМ" />
+				<property name="unknownTechNet" value="Не задана" />
+				<property name="techNets" value="Меридиональная" />
+				<property name="techProjects" value="РО-ТП" />
+			</property-set>
+			<property-set name="ТАЙМЫРСКИЙ">
+				<property name="defaultExcavationKind" value="ЗФ_КАМ" />
+				<property name="unknownTechNet" value="Не задана" />
+				<property name="techNets" value="Центральная" />
+				<property name="techProjects" value="РТ" />
+			</property-set>
+			<property-set name="ЗАПОЛЯРНЫЙ">
+				<property name="defaultExcavationKind" value="МР_БДШ" />
+				<property name="unknownTechNet" value="Не задана" />
+				<property name="techNets" value="Заполярный" />
+				<property name="techProjects" value="РЗ-ВР" />
+			</property-set>
+			<property-set name="КГМК_СЕВЕРНЫЙ">
+				<property name="defaultExcavationKind" value="КГМК_БДШ" />
+				<property name="unknownTechNet" value="Не задана" />
+				<property name="techNets" value="ВРТ;ЗРТ;ЦРТ;СРТ=СРТ (западная ветвь);ЮВРТ;ЮЗРТ" />
+				<property name="techProjects" value="П-1-1-ПЗ;П-2-1-ПЗ" />
+			</property-set>
+            <property-set name="КОМС_СКАЛИСТАЯ">
+                <property name="defaultExcavationKind" value="ЗФ_КАМ" />
+                <property name="unknownTechNet" value="Не задана" />
+                <property name="techNets" value="Не задана" />
+                <property name="techProjects" value="РС" />
+            </property-set>
+			<property-set name="КОМСОМОЛЬСКИЙ">
+                <property name="defaultExcavationKind" value="ЗФ_КАМ" />
+                <property name="unknownTechNet" value="Не задана" />
+                <property name="techNets" value="Не задана" />
+                <property name="techProjects" value="РК" />
+            </property-set>
+		</property-set>
+		<!-- Логирование действий пользователя -->
+		<property-set name="logDbAppenderParams">
+			<property name="enabled" value="1" />
+			<property name="application" value="OT.131" />
+		</property-set>
+
+		<property-set name="sdo">
+			<property name="poolSize" value="5" />
+			<property name="maxPoolSize" value="5" />
+			<property name="maxTotalPoolSize" value="-1" />
+		</property-set>
+
+		<property-set name="runa">
+			<property name="ws.url" value="http://mine-pro.ot-oil.com:8888/wfe-service-4.3.0/" />
+			<property-set name="ejb">
+				<property name="url" value="http-remoting://mine-pro.ot-oil.com:8888" />
+				<property name="user" value="ejb" />
+				<property name="password" value="!QAZ2wsx" />
+			</property-set>
+		</property-set>
+
+		<property-set name="excavation">
+			<property name="name.regexp" value="(^[а-яА-Я0-9_\-,ёЁ\/\s\+\.']+$)|(^$)" />
+			<property name="suffix.regexp" value="(^[а-яА-Я0-9_\-,ёЁ]+$)|(^$)" />
+		</property-set>
+
+		<property-set name="integrator">
+			<property name="restService" value="http://185.40.76.80:8080/mine-pro-itg2/rest" />
+			<property-set name="indexer">
+				<property-set name="dataSource">
+					<property name="url" value="http://185.40.76.80:8080/mine-pro-itg2/TaskManager" />
+					<property name="jobName" value="ItgDataSourceIndexerJob" />
+				</property-set>
+			</property-set>
+			<property-set name="api">
+				<property-set name="breakTask">
+					<property name="url" value="http://185.40.76.80:8080/mine-pro-itg2/breakTask" />
+				</property-set>
+			</property-set>
+		</property-set>
+		
+		<property-set name="blockModelDataBase">
+			<!-- isRelativeBmIndexes - default: false -->
+			<!-- <property name="isRelativeBmIndexes" value="true" />  -->
+			<!-- не использовать isRelativeBmIndexes для отдельных таблиц -->
+			<!-- bm_* - default: true -->
+			<!-- <property name="bm_qualities" value="false" /> -->
+			<!-- <property name="bm_quantities" value="false" /> -->
+			<!-- <property name="bm_report_qualities" value="false" /> -->
+			<!-- <property name="bm_report_quantities" value="false" /> -->
+		</property-set>
+		
+	</properties>
+
+	<!-- Работа с картой -->
+	<spatial_common>
+		<mapserver_url>http://mine-pro.ot-oil.com/map?</mapserver_url>
+		<mapfilename>C:/opt/shapes/bottom/bottom_minepro_102027.map</mapfilename>
+		<!-- В такой проекции данные записываются в БД -->
+		<projection>
+			<epsg_code>EPSG:4284</epsg_code>
+			<proj4text>+proj=longlat +ellps=krass +towgs84=23.57,-140.95,-79.8,0,-0.35,-0.79,-0.22 +no_defs</proj4text>
+			<title>градусы</title>
+		</projection>
+		<!-- В этой проекции отображаются данные -->
+		<display_projection>
+			<epsg_code>EPSG:102027</epsg_code>
+			<!-- Описание proj4text для проекции EPSG:102027 (т.к компонент карты не знает ее по умолчанию) -->
+			<proj4text>+proj=lcc +lat_1=15 +lat_2=65 +lat_0=30 +lon_0=95 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs</proj4text>
+			<title>метры</title>
+			<!-- (x,y)=(lon, lat) -->
+			<max_extent>-4925066.88601357,1782240.640,9840117.077,5745334.67078418</max_extent>
+			<!-- координаты относительно которых центрировать карту по умолчанию: X,Y = lon,lat -->
+			<center>-278479.911003907,4110010.59822564</center>
+		</display_projection>
+
+		<min_zoom>0</min_zoom>
+		<max_zoom>15</max_zoom>
+		<zoom>4</zoom>
+		<!--Указывается версия мапсервера, не ms4w, т.к. может быть развернуто и не под windows в перспективе. для ms4w, которые 
+			у нас использовались: старый - 6.0, актуальный 7.0. Последняя версия, с которой работают старые мапфайлы - 6.4 Версию мапсервера 
+			для ms4w можно посмотреть в файле README_INSTALL.txt -->
+		<!-- version>6.0</version> -->
+		<version>7.0</version>
+		<interpolation_cache>C:/opt/shapes/interpolationCache</interpolation_cache>
+		<saga_path>C:/opt/saga_2.3.1_x64/saga_cmd.exe</saga_path>
+	</spatial_common>
+
+	<!-- Раскомментировать для настройки доступа к solr по ssl -->
+	<!-- <solr-ssl> <solr_ssl_key_store>D:/opt/solr-8.2.0/server/solr/keystore3.jks</solr_ssl_key_store> <solr_ssl_key_store_password>qwerty</solr_ssl_key_store_password>> 
+		<solr_ssl_trust_store>D:/opt/solr-8.2.0/server/solr/keystore3.jks</solr_ssl_trust_store> <solr_ssl_trust_store_password>qwerty</solr_ssl_trust_store_password> 
+		</solr-ssl> -->
+	<solr>
+		<solr-url>http://mine-pro.ot-oil.com:8983/solr/</solr-url>
+		<solr-core>HPDORE</solr-core>
+	</solr>
+
+	<solr-monitoring>
+		<solr-url>http://mine-pro.ot-oil.com:8983/solr/</solr-url>
+		<solr-core>HPDORE</solr-core>
+		<solr-core id="integrator.solr.monitoringTasks">ItgMonitoringTasks</solr-core>
+		<solr-core id="integrator.solr.monitoringObjects">ItgMonitoringObjects</solr-core>
+		<solr-core id="integrator.solr.monitoringIncidents">ItgMonitoringIncidents</solr-core>
+		<solr-core id="integrator.solr.integrator">Integrator2</solr-core>
+		<solr-core id="integrator.solr.master">Integrator2</solr-core>
+		<solr-core id="integrator.solr.masterLog">Integrator2Log</solr-core>
+		<solr-core id="integrator.solr.dataCache">EntprsDataCache</solr-core>
+		<solr-core id="integrator.solr.formCache">ItgMonitoringForms</solr-core>
+		<solr-core id="excavations">excavations</solr-core>
+		<solr-core id="fieldsegments">fieldsegments</solr-core>
+		<solr-core id="samplingresults">samplingresults</solr-core>
+		<solr-core id="samplingrequests">samplingrequests</solr-core>
+		<solr-core id="blastingwells">blastingwells</solr-core>
+		<solr-core id="blastingoperations">blastingoperations</solr-core>
+		<solr-core id="ore">oreareas</solr-core>
+		<solr-core id="researches">researches</solr-core>
+		<solr-core id="oresamplings">oresamplings</solr-core>
+		<solr-core id="exploration-wells">exploration-wells</solr-core>
+		<solr-core id="observation_points_research_filter">observation_points_research_filter</solr-core>
+		<solr-core id="observation_points_research_data">observation_points_research_data</solr-core>
+		<solr-core id="OREGRR">OREGRR</solr-core>
+		<solr-core id="stocks">stocks</solr-core>
+		<solr-core id="journals-coords-calculation">journals-coords-calculation</solr-core>
+		<solr-core id="graphicalreporting">graphicalreporting</solr-core>
+		<!-- Добавить ядро после добавления формы мониторинга solr-core id="stowage-work">stowage-work</solr-core -->
+		<solr-core id="cores">cores</solr-core>
+	</solr-monitoring>
+
+	<system-tiles>
+		<form formId="OT_932_1_0340">
+			<tile isOnDesktop="true" function="OT.932.APP.SF.8.001.01">/geology.json</tile>
+			<tile isOnDesktop="true" function="OT.932.APP.SF.8.001.02">/marcsheiderii.json</tile>
+			<tile isOnDesktop="true" function="OT.932.APP.SF.8.001.03">/proectir.json</tile>
+			<tile isOnDesktop="true" function="OT.932.APP.SF.8.001.04">/planning.json</tile>
+			<tile isOnDesktop="true" function="OT.932.APP.SF.8.001.05">/km_for_conform.json</tile>
+		</form>
+		<form formId="OT_932_1_0270">
+			<tile isOnDesktop="true" function="OT.932.APP.SF.4.001.01">/soglasovanie_BM.json</tile>
+			<tile isOnDesktop="true" function="OT.932.APP.SF.4.001.02">/soglasovanie_PM.json</tile>
+		</form>
+		<form formId="OT_932_1_0070">
+			<tile isOnDesktop="true" function="OT.932.APP.SF.1.001">/excavations.json</tile>
+		</form>
+		<form formId="OT_135_1_0010"> 
+			<tile isOnDesktop="false" function="OT.932.APP.SF.22.001.02">/GeoGO.json</tile>
+			<tile isOnDesktop="false" function="OT.932.APP.SF.22.001.01">/ScenarioGO.json</tile> 
+		</form> 
+		<form formId="OT_932_1_0450">
+			<tile isOnDesktop="false" function="OT.932.APP.SF.1.035.01">/volumes.json</tile>
+			<tile isOnDesktop="false" function="OT.932.APP.SF.1.035.02">/supports.json</tile>
+			<tile isOnDesktop="false" function="OT.932.APP.SF.1.035.05">/request_for_measure.json</tile>
+			<tile isOnDesktop="false" function="OT.932.APP.SF.1.035.04">/backfillings.json</tile>
+			<tile isOnDesktop="false" function="OT.932.APP.SF.1.035.03">/losses.json</tile>
+			<tile isOnDesktop="false" function="OT.932.APP.SF.1.035.08">/excavation_ore.json</tile>
+			<tile isOnDesktop="false" function="OT.932.APP.SF.1.035.07">/excavation_rock.json</tile>
+			<tile isOnDesktop="false" function="OT.932.APP.SF.1.035.06">/metals.json</tile>
+		</form>
+		<form formId="OT_932_5_0170"> 
+			<tile isOnDesktop="false" function="OT.135.APP.SF.2.002">/MarkseideriaAGO.json</tile>
+			<tile isOnDesktop="false" function="OT.135.APP.SF.2.002">/ProektirAGO.json</tile> 
+			<tile isOnDesktop="false" function="OT.135.APP.SF.2.002">/GeologiaAGO.json</tile> 
+		</form> 	
+	</system-tiles>
+
+	<draw-io>
+		<url>/draw</url>
+		<pdfServiceURL>http://localhost:8000</pdfServiceURL>
+	</draw-io>
+	<integrator>
+		<api-url>http://185.40.76.80:8080/itg_api</api-url>
+	</integrator>
+
+	<bm-service>
+		<service-url id="mine-pro.ot-oil.pool.0">http://mine-pro.ot-oil.com:8080</service-url>
+		<service-url id="mine-pro.ot-oil.pool.1">http://mine-pro.ot-oil.com:8080</service-url>
+		<service-url id="mine-pro.ot-oil.pool.2">http://mine-pro.ot-oil.com:8080</service-url>
+		<service-url id="mine-pro.ot-oil.pool.3">http://mine-pro.ot-oil.com:8080</service-url>
+		<service-url id="mine-pro.ot-oil.pool.4">http://mine-pro.ot-oil.com:8080</service-url>
+	</bm-service>
+
+</params>

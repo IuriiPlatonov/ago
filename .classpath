@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-Authorise"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-Exception"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-Extention"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-MVP"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-SDO"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-SettingsManager"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-Utils"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SDO"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/WeVEL-NS"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_040_7_0010"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Bindings"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/UploadDownloadManager"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/UploadDownloadManager-SDO"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-Image"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_040_5_0010"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-PushEvent"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-IssueCreator"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-SpeedTest"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-Tiles"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_040_ATOLL_Places"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_040_1_0050"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-Binding"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-Offline"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_040_ATOLL_Main"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-AtollImages"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/GUAVA"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SLF4J"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SOLR"/>
+	<classpathentry kind="con" path="com.gwtplugins.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ORACLE_JDBC"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-Gridster"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_Places"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_1_0090"/>
+	<classpathentry kind="lib" path="/WebPlatforma/lib/server/lombok.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_5_0020"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ReportManager-Main"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ReportManager-Places"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_040_1_0100"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_040_5_0020"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_131_Main"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_132_Places"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_131_1_0140"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_131_5_0150"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_104_5_0030"/>
+	<classpathentry kind="lib" path="/WebPlatforma/lib/server/xstream-1.3.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_5_0040"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/WebPlatforma"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/RXJAVA"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_2_0050"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_131_5_0050"/>
+	<classpathentry kind="src" path="/OT_040_1_0020"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_2_0510"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_1_0190"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_8_0010"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_2_0460"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/XERCES"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_2_0780"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_2_0810"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_2_0870"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_2_0880"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_2_0890"/>
+	<classpathentry kind="lib" path="/OT_132_5_0060/lib/gdal.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_135_1_0010"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_135_1_0020"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_135_2_0010"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_135_8_0010"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_5_0160"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GWT-Drawio"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_040_1_0080"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_135_2_0030"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_135_5_0030"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_135_2_0020"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_135_5_0020"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_5_0170"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_2_1140"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_932_5_0220"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_135_5_0060"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_135_1_0030"/>
+	<classpathentry kind="lib" path="/OT_932_1_0090/src" sourcepath="/OT_932_1_0090/src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/OT_131_5_0190"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/REST"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

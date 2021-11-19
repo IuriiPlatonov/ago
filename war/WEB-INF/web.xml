@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>ru.ot.gwt.authorise.server.LoginServiceImpl</servlet-class>
+		<init-param>
+			<param-name>log-authorize-action</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<param-name>check-device-count</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<init-param>
+			<param-name>delete-user-confidential-info</param-name>
+			<param-value>false</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet>
+		<servlet-name>sdo</servlet-name>
+		<servlet-class>ru.ot.gwt.sdo.server.services.SDOServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>config</servlet-name>
+		<servlet-class>ru.ot.gwt.sdo.server.services.ConfigServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>excel</servlet-name>
+		<servlet-class>ru.ot.gwt.utils.server.rpc.ExcelGeneratorImpl</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>file</servlet-name>
+		<servlet-class>ru.ot.gwt.sdo.server.services.DownloadFileServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>imageblob</servlet-name>
+		<servlet-class>ru.ot.imageblob.server.services.ImageBlobServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>processDiagramServlet</servlet-name>
+		<servlet-class>com.otoil.ot_932_2_0450.server.services.ProcessDiagramServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>processDiagramServlet</servlet-name>
+		<url-pattern>/ot_932_ago_main/process-diagram</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>accessServiceImpl</servlet-name>
+		<servlet-class>ru.ot.gwt.authorise.server.access.AccessServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>accessServiceImpl</servlet-name>
+		<url-pattern>/ot_932_ago_main/atoll_authorise</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>appPropertiesService</servlet-name>
+		<servlet-class>ru.ot.gwt.authorise.server.apppropertiesservice.AppPropertiesServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>appPropertiesService</servlet-name>
+		<url-pattern>/ot_932_ago_main/appPropertiesService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>upload</servlet-name>
+		<servlet-class>ru.ot.gwt.wevelsdo.server.FileUploadServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>settings</servlet-name>
+		<servlet-class>ru.ot.gwt.settings.server.services.SettingsServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>eventServiceImpl</servlet-name>
+		<servlet-class>ru.ot.pushevent.server.PushEventServiceImpl</servlet-class>
+		<load-on-startup>1</load-on-startup>
+
+		<init-param>
+			<param-name>eventservice.connection.id.generator</param-name>
+			<param-value>de.novanic.eventservice.service.connection.id.SessionExtendedConnectionIdGenerator</param-value>
+		</init-param>
+
+		<init-param>
+			<param-name>eventservice.time.waiting.min</param-name>
+			<param-value>0</param-value>
+		</init-param>
+
+		<init-param>
+			<param-name>eventservice.time.waiting.max</param-name>
+			<param-value>20000</param-value>
+		</init-param>
+		<init-param>
+			<param-name>eventservice.time.timeout</param-name>
+			<param-value>90000</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet>
+		<servlet-name>exception</servlet-name>
+		<servlet-class>ru.ot.gwt.exception.server.ExceptionServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>accessManager</servlet-name>
+		<servlet-class>ru.ot.hpd.authorise.server.services.AccessManagerServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>remoteLoggingServlet</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.dblogging.HPDLogServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>sdopool</servlet-name>
+		<servlet-class>ru.ot.gwt.sdo.server.services.SDOPoolServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sdopool</servlet-name>
+		<url-pattern>/ot_932_ago_main/sdopool</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>accessManager</servlet-name>
+		<url-pattern>/ot_932_ago_main/accessManager</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/ot_932_ago_main/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>sdo</servlet-name>
+		<url-pattern>/ot_932_ago_main/sdo</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>config</servlet-name>
+		<url-pattern>/ot_932_ago_main/config</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>excel</servlet-name>
+		<url-pattern>/ot_932_ago_main/excel</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>file</servlet-name>
+		<url-pattern>/ot_932_ago_main/file</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>upload</servlet-name>
+		<url-pattern>/ot_932_ago_main/upload</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>settings</servlet-name>
+		<url-pattern>/ot_932_ago_main/settings</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>imageblob</servlet-name>
+		<url-pattern>/ot_932_ago_main/imageblob</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>eventServiceImpl</servlet-name>
+		<url-pattern>/ot_932_ago_main/gwteventservice</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>remoteLoggingServlet</servlet-name>
+		<url-pattern>/ot_932_ago_main/remoteLoggingServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>exception</servlet-name>
+		<url-pattern>/ot_932_ago_main/exception</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>asyncDownloadFileServlet</servlet-name>
+		<servlet-class>ru.ot.gwt.manager.server.FileAsyncDownloadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>asyncDownloadFileServlet</servlet-name>
+		<url-pattern>/ot_932_ago_main/asyncDownload</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>asyncUploadFileServlet</servlet-name>
+		<servlet-class>ru.ot.gwt.manager.server.FileAsyncUploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>asyncUploadFileServlet</servlet-name>
+		<url-pattern>/ot_932_ago_main/asyncUpload</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>managerServlet</servlet-name>
+		<servlet-class>ru.ot.gwt.manager.server.ManagerServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>managerServlet</servlet-name>
+		<url-pattern>/ot_932_ago_main/file_service</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>asyncUrl</servlet-name>
+		<servlet-class>ru.ot.gwt.utils.server.AsyncUrlServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>asyncUrl</servlet-name>
+		<url-pattern>/ot_932_ago_main/async-url</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>tinyParam</servlet-name>
+		<servlet-class>ru.ot.gwt.utils.server.TinyUrlServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>tinyParam</servlet-name>
+		<url-pattern>/ot_932_ago_main/tiny-param</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>speedtest</servlet-name>
+		<servlet-class>com.otoil.speedtest.server.SpeedTestImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>speedtest</servlet-name>
+		<url-pattern>/ot_932_ago_main/speedtest</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>issueCreatorService</servlet-name>
+		<servlet-class>com.otoil.ot_040_5_0010.server.issue.AtollIssueCreatorServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>issueCreatorService</servlet-name>
+		<url-pattern>/ot_932_ago_main/issueCreatorService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>popularPlaces</servlet-name>
+		<servlet-class>com.otoil.ot_040_7_0010.server.popular.PopularPlacesServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>popularPlaces</servlet-name>
+		<url-pattern>/ot_932_ago_main/popularPlaces</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>solr2</servlet-name>
+		<servlet-class>com.otoil.ot_040_5_0010.server.monitoring.solr.SolrMonitoringDataServiceImpl</servlet-class>
+
+		<init-param>
+			<param-name>solr-query-decorators</param-name>
+			<param-value>
+				com.otoil.ot_131_1_0140.server.service.HPDMonitoringQueryDecorator,
+				com.otoil.ot_932_5_0020.server.solr.decorators.PolicyQueryDecorator,
+				com.otoil.ot_135_2_0020.server.GOSubjectAreaQueryDecorator,
+				com.otoil.ot_135_1_0010.server.solr.GOMonitoringQueryDecorator
+			</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>solr2</servlet-name>
+		<url-pattern>/ot_932_ago_main/solr-data</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>solr2</servlet-name>
+		<url-pattern>/ot_932_ago_main/solr-filter</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>solrListDataService</servlet-name>
+		<servlet-class>com.otoil.ot_040_5_0010.server.monitoring.solr.SolrListDataServiceImpl
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>solrListDataService</servlet-name>
+		<url-pattern>/ot_932_ago_main/solr-list-data</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>solrDataExportService</servlet-name>
+		<servlet-class>com.otoil.ot_040_5_0010.server.monitoring.solr.export.SolrDataExportServiceImpl</servlet-class>
+
+		<init-param>
+			<param-name>solr-query-decorators</param-name>
+			<param-value>
+				com.otoil.ot_932_5_0020.server.solr.decorators.PolicyQueryDecorator,
+				com.otoil.ot_135_2_0020.server.GOSubjectAreaQueryDecorator,
+				com.otoil.ot_135_1_0010.server.solr.GOMonitoringQueryDecorator
+			</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>solrDataExportService</servlet-name>
+		<url-pattern>/ot_932_ago_main/solr-data-export</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>appCacheServlet</servlet-name>
+		<servlet-class>com.otoil.appcache.server.ApplcationCacheServlet</servlet-class>
+		<init-param>
+			<param-name>disable-manifest-cache</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>appCacheServlet</servlet-name>
+		<url-pattern>/ore.appcache</url-pattern>
+	</servlet-mapping>
+	<filter>
+		<filter-name>applicationCacheFilter</filter-name>
+		<filter-class>com.otoil.appcache.server.ApplicationCacheFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>applicationCacheFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+
+
+	<servlet>
+		<servlet-name>image-sprite</servlet-name>
+		<servlet-class>ru.ot.imageblob.server.services.SpriteImageServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>image-sprite</servlet-name>
+		<url-pattern>/ot_932_ago_main/image-sprite</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>hostinfo</servlet-name>
+		<servlet-class>ru.ot.ot_104_5_0030.server.services.UserClientHostInfoServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>hostinfo</servlet-name>
+		<url-pattern>/ot_932_ago_main/hostinfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>addObjectRFSService</servlet-name>
+		<servlet-class>ru.ot.ot_104_2_0030.server.services.RemoteFileSystemImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addObjectRFSService</servlet-name>
+		<url-pattern>/ot_932_ago_main/addObjectRFSService</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- Интегратор -->
+
+	
+	<servlet>
+		<servlet-name>bodsData</servlet-name>
+		<servlet-class>com.otoil.ot_118_1_0100.server.services.BodsDataServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>bodsData</servlet-name>
+		<url-pattern>/ot_932_ago_main/bodsData</url-pattern>
+	</servlet-mapping>
+
+	
+
+	
+
+
+	<servlet>
+		<servlet-name>sxrep</servlet-name>
+		<servlet-class>ru.ot.gwt.sdo.server.services.SXReportServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sxrep</servlet-name>
+		<url-pattern>/ot_932_ago_main/sxrep</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RationingService</servlet-name>
+		<servlet-class>com.otoil.ot_040_5_0020.server.services.norm.RationingServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RationingService</servlet-name>
+		<url-pattern>/ot_932_ago_main/rationService</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>excelUploader</servlet-name>
+		<url-pattern>/ot_932_ago_main/excelUploader</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>excelUploader</servlet-name>
+		<servlet-class>com.otoil.ot_040_1_0100.server.services.ExcelUploadServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>execution-tracking</servlet-name>
+		<servlet-class>ru.ot.gwt.utils.server.execution.ExecutionTrackingServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>execution-tracking</servlet-name>
+		<url-pattern>/ot_932_ago_main/execution-tracking</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>shape-utils</servlet-name>
+		<servlet-class>com.otoil.gis.ext.server.service.ShapeUtilsServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>shape-utils</servlet-name>
+		<url-pattern>/ot_932_ago_main/shape-utils</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>jersey-rest</servlet-name>
+		<servlet-class>org.glassfish.jersey.servlet.ServletContainer
+		</servlet-class>
+		<init-param>
+			<param-name>jersey.config.server.provider.packages</param-name>
+			<param-value>
+				com.otoil.gis.ext.server
+				com.otoil.gis.ext.server.service
+				ru.ot.gwt.sdo.server.rest
+				ru.ot.gwt.utils.server.service
+				com.otoil.ot_040_5_0010.server.services
+				com.otoil.ot_131_5_0190.server
+				ru.ot.ot_132_5_0030.server
+				com.otoil.ot_932.main.server.services
+				com.otoil.ot_932_1_0090.server
+				com.otoil.ot_932_1_0190.server
+				com.otoil.ot_932_2_0050.minesched.server
+				com.otoil.ot_932_2_0050.micromine.server
+				com.otoil.ot_932_2_0060.server
+				com.otoil.ot_932_2_0070.server
+				com.otoil.ot_932_2_0080.server
+				com.otoil.ot_932_2_0090.server
+				com.otoil.ot_932_2_0100.server
+				com.otoil.ot_932_2_0110.server
+				com.otoil.ot_932_2_0120.server
+				com.otoil.ot_932_2_0130.server
+				com.otoil.ot_932_2_0140.server
+				com.otoil.ot_932_2_0180.server
+				com.otoil.ot_932_2_0210.server
+				com.otoil.ot_932_2_0320.server
+				com.otoil.ot_932_2_0330.server
+				com.otoil.ot_932_2_0340.server
+				com.otoil.ot_932_2_0350.server
+				com.otoil.ot_932_2_0360.server
+				com.otoil.ot_932_2_0390.server
+				com.otoil.ot_932_2_0420.server
+				com.otoil.ot_932_2_0450.server
+				com.otoil.ot_932_2_0460.server
+				com.otoil.ot_932_2_0470.server
+				com.otoil.ot_932_2_0490.server
+				com.otoil.ot_932_2_0500.server
+				com.otoil.ot_932_2_0510.server
+				com.otoil.ot_932_2_0520.server
+				com.otoil.ot_932_2_0530.server
+				com.otoil.ot_932_2_0540.server
+				com.otoil.ot_932_2_0550.server
+				com.otoil.ot_932_2_0560.server
+				com.otoil.ot_932_2_0570.server
+				com.otoil.ot_932_2_0580.server
+				com.otoil.ot_932_2_0590.server
+				com.otoil.ot_932_2_0600.server
+				com.otoil.ot_932_2_0610.server
+				com.otoil.ot_932_2_0620.server
+				com.otoil.ot_932_2_0630.server
+				com.otoil.ot_932_2_0690.server
+				com.otoil.ot_932_2_0700.server
+				com.otoil.ot_932_2_0710.server
+				com.otoil.ot_932_2_0720.server
+				com.otoil.ot_932_2_0730.server
+				com.otoil.ot_932_2_0740.server
+				com.otoil.ot_932_2_0750.server
+				com.otoil.ot_932_2_0760.server
+				com.otoil.ot_932_2_0770.server
+				com.otoil.ot_932_2_0780.server
+				com.otoil.ot_932_2_0790.server
+				com.otoil.ot_932_2_0800.server
+				com.otoil.ot_932_2_0810.server.service
+				com.otoil.ot_932_2_0820.server.service
+				com.otoil.ot_932_2_0860.server
+				com.otoil.ot_932_2_0870.server.service
+				com.otoil.ot_932_2_0880.server.service
+				com.otoil.ot_932_2_0890.server.service
+				com.otoil.ot_932_2_0900.server.services
+				com.otoil.ot_932_2_0910.server.services
+				com.otoil.ot_932_2_0920.server
+				com.otoil.ot_932_2_0930.server
+				com.otoil.ot_932_5_0010.server
+				com.otoil.ot_932_2_0810.server
+				com.otoil.ot_932_2_0820.server
+				com.otoil.ot_932_2_0830.server
+				com.otoil.ot_932_2_0850.server
+				com.otoil.ot_932_2_0880.server
+				com.otoil.ot_932_2_0940.server
+				com.otoil.ot_932_2_0990.server
+				com.otoil.ot_932_2_0950.server
+				com.otoil.ot_932_2_0980.server
+				com.otoil.ot_932_2_1000.server
+				com.otoil.ot_932_2_1010.server
+				com.otoil.ot_932_2_1020.server
+				com.otoil.ot_932_2_1050.server
+				com.otoil.ot_932_2_1080.server
+				com.otoil.ot_932_2_1090.server
+				com.otoil.ot_932_2_1100.server
+				com.otoil.ot_932_2_1040.server
+				com.otoil.ot_932_2_1070.server
+				com.otoil.ot_932_2_1110.server
+				com.otoil.ot_932_2_1130.server
+				com.otoil.ot_932_5_0020.server
+				com.otoil.ot_932_5_0030.server
+				com.otoil.ot_932_5_0040.server
+				com.otoil.ot_932_5_0070.server
+				com.otoil.ot_932_5_0090.server
+				com.otoil.ot_932_5_0100.server
+				com.otoil.ot_135_1_0010.server
+				com.otoil.ot_135_1_0020.server
+				com.otoil.ot_135_2_0010.server
+				com.otoil.ot_135_2_0020.server
+				com.otoil.ot_135_2_0040.server
+				com.otoil.ot_135_5_0030.server.go
+				com.otoil.ot_135_5_0030.server.clipdoc
+				com.otoil.ot_932_5_0160.server
+				com.otoil.ot_932_5_0170.server
+				com.otoil.ot_932_2_1060.server
+				com.otoil.ot_932_2_1030.server.data
+				com.otoil.ot_932_2_1140.server.services
+				com.otoil.ot_932_2_1200.server.data
+				com.otoil.ot_932_2_1210.server
+				com.otoil.ot_932_2_1220.server
+				com.otoil.ot_932_2_1230.server
+				com.otoil.ot_932_2_1240.server
+				com.otoil.ot_932_5_0180.server
+				com.otoil.ot_932_5_0190.server
+				com.otoil.ot_932_5_0200.server
+				com.otoil.ot_932_5_0210.server
+				com.otoil.ot_932_5_0220.server
+			</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>jersey-rest</servlet-name>
+		<url-pattern>/ot_932_ago_main/rest/*</url-pattern>
+	</servlet-mapping>
+
+	<filter>
+		<filter-name>authenticationFilter</filter-name>
+		<filter-class>ru.ot.gwt.sdo.server.AuthenticationFilter</filter-class>
+		<init-param>
+			<param-name>exclude-url-pattern</param-name>
+			<param-value>
+				/rest/sdo/check-config
+				/rest/permutation/check-matches
+			</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>authenticationFilter</filter-name>
+		<url-pattern>/ot_932_ago_main/rest/*</url-pattern>
+	</filter-mapping>
+
+	<servlet>
+		<servlet-name>area-parameters</servlet-name>
+		<servlet-class>com.otoil.ot_932_2_0010.server.service.AreaParametersServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>area-parameters</servlet-name>
+		<url-pattern>/ot_932_ago_main/area-parameters</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>forecast-details</servlet-name>
+		<servlet-class>com.otoil.ot_932_2_0030.server.service.ForecastDetailsServiceImpl</servlet-class>
+
+		<init-param>
+			<param-name>areas-solr-core-id</param-name>
+			<param-value>ore</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>forecast-details</servlet-name>
+		<url-pattern>/ot_932_ago_main/forecast-details</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ore-report</servlet-name>
+		<servlet-class>com.otoil.ot_932_5_0010.server.report.OreReportServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ore-report</servlet-name>
+		<url-pattern>/ot_932_ago_main/ore-report</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>docGeoParamService</servlet-name>
+		<servlet-class>com.otoil.ot_131_5_0170.server.DocGeoServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>docGeoParamService</servlet-name>
+		<url-pattern>/ot_932_ago_main/docGeoParamService</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- Start Библиотека -->
+	<servlet>
+		<servlet-name>mainFormSearch</servlet-name>
+		<servlet-class>com.otoil.ot_131_main.server.service.LibraryObjectSearchServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mainFormSearch</servlet-name>
+		<url-pattern>/ot_932_ago_main/libObjSearch</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>dialogValuesService</servlet-name>
+		<url-pattern>/ot_932_ago_main/dialogValuesService</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>dialogValuesService</servlet-name>
+		<servlet-class>ru.ot.ot_100_2_0680.server.service.DialogValuesServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>logDetalizationService</servlet-name>
+		<url-pattern>/ot_932_ago_main/logDetalizationService</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>logDetalizationService</servlet-name>
+		<servlet-class>com.otoil.ot_132_1_0040.server.service.LogDetalizationServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>solrExcelExport</servlet-name>
+		<url-pattern>/ot_932_ago_main/solrExcelExport</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>solrExcelExport</servlet-name>
+		<servlet-class>com.otoil.ot_132_1_0040.server.service.SolrExcelExportServiceImpl</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>fileScannerServlet</servlet-name>
+		<servlet-class>com.otoil.ot_131_1_0140.server.filescanner.FileScannerHttpServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fileScannerServlet</servlet-name>
+		<url-pattern>/ot_932_ago_main/fileScannerServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>pdExcelExportServlet</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.structure.report.service.PDExcelExportServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pdExcelExportServlet</servlet-name>
+		<url-pattern>/ot_932_ago_main/pdExcelExportServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>structureService</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.structure.service.StructureServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>structureService</servlet-name>
+		<url-pattern>/ot_932_ago_main/structureService</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>smallPreviewServlet</servlet-name>
+		<url-pattern>/ot_932_ago_main/smallPreviewServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>smallPreviewServlet</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.file.service.SmallPreviewServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>serverFilePathService</servlet-name>
+		<url-pattern>/ot_932_ago_main/serverFilePathService</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>serverFilePathService</servlet-name>
+		<servlet-class>
+			ru.ot.ot_132_5_0030.server.serverfilepath.ServerFilePathServiceImpl
+		</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>apiAttrValueService</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0010.server.api.service.AttributeValueServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>apiAttrValueService</servlet-name>
+		<url-pattern>/ot_932_ago_main/apiAttrValService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>customAlgoritmService</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.custom.service.CustomAlgoritmServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>customAlgoritmService</servlet-name>
+		<url-pattern>/ot_932_ago_main/customAlgoritmService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>customAlgoritmOnFileLoadService</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.file.service.CustomAlgoritmOnFileLoadServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>customAlgoritmOnFileLoadService</servlet-name>
+		<url-pattern>/ot_932_ago_main/customAlgoritmOnFileLoadService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>remoteFileDownload</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.download.service.RemoteFileDownloadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>remoteFileDownload</servlet-name>
+		<url-pattern>/ot_932_ago_main/remoteFileDownload</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>convertfile</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.convert.ConvertFileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>convertfile</servlet-name>
+		<url-pattern>/ot_932_ago_main/convertfile</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>buConstrainsService</servlet-name>
+		<servlet-class>ru.ot.ot_100_5_0550.server.services.BuConstrainServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>buConstrainsService</servlet-name>
+		<url-pattern>/ot_932_ago_main/buConstrainsService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>searchService</servlet-name>
+		<servlet-class>ru.ot.ot_132_1_0060.server.services.SearchServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>searchService</servlet-name>
+		<url-pattern>/ot_932_ago_main/searchService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>referencesMetaDataServiceImpl</servlet-name>
+		<servlet-class>ru.ot.ot_132_1_0060.server.attributes.ReferencesMetaDataServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>referencesMetaDataServiceImpl</servlet-name>
+		<url-pattern>/ot_932_ago_main/referencesMetadataUniversal</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>IndexData</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.common.service.IndexDataServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IndexData</servlet-name>
+		<url-pattern>/ot_932_ago_main/indexData</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>bookcaseDataService</servlet-name>
+		<servlet-class>ru.ot.ot_132_1_0070.server.service.BookcaseDataServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>bookcaseDataService</servlet-name>
+		<url-pattern>/ot_932_ago_main/bookcaseDataService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>remoteFileSystemService</servlet-name>
+		<servlet-class>ru.ot.ot_132_1_0080.server.services.RemoteFileSystemImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>remoteFileSystemService</servlet-name>
+		<url-pattern>/ot_932_ago_main/remoteFileSystemService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>filePreviewServlet</servlet-name>
+		<servlet-class>ru.ot.filepreview.server.FilePreviewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>filePreviewServlet</servlet-name>
+		<url-pattern>/ot_932_ago_main/filePreviewServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>parserService</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.contour.service.ParserServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>parserService</servlet-name>
+		<url-pattern>/ot_932_ago_main/parserService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>attributeMetadataService</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.attributes.service.AttributeMetaDataServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>attributeMetadataService</servlet-name>
+		<url-pattern>/ot_932_ago_main/attributeMetadataService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>editorMetadata</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.attributes.service.EditorMetaDataServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>editorMetadata</servlet-name>
+		<url-pattern>/ot_932_ago_main/editorMetadata</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>filezipdownload</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.download.service.FileUploadServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>filezipdownload</servlet-name>
+		<url-pattern>/ot_932_ago_main/filezipdownload</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>attributeicon</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.attributes.service.AttriburesIconServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>attributeicon</servlet-name>
+		<url-pattern>/ot_932_ago_main/attributeicon</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>doccardicon</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.docstructure.DocCardIconServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>doccardicon</servlet-name>
+		<url-pattern>/ot_932_ago_main/doccardicon</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>attributeUserSettingsService</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.attributes.service.AttributeUserSettingsServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>attributeUserSettingsService</servlet-name>
+		<url-pattern>/ot_932_ago_main/attributeUserSettingsService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>remotePathForKindService</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.download.service.RemotePathForKindServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>remotePathForKindService</servlet-name>
+		<url-pattern>/ot_932_ago_main/remotePathForKindService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>fileCountService</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.structure.service.FileCountServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fileCountService</servlet-name>
+		<url-pattern>/ot_932_ago_main/fileCountService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>formatIconsServlet</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.file.service.FormatIconsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>formatIconsServlet</servlet-name>
+		<url-pattern>/ot_932_ago_main/formatIconsServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>docFromSolrService</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.attributes.service.ProjectDocFromSolrServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>docFromSolrService</servlet-name>
+		<url-pattern>/ot_932_ago_main/docFromSolrService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>commonUtilsService</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.custom.service.CommonUtilsServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>commonUtilsService</servlet-name>
+		<url-pattern>/ot_932_ago_main/commonUtilsService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>solrFieldsNamesService</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0030.server.solrfilter.service.SolrFieldsNamesServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>solrFieldsNamesService</servlet-name>
+		<url-pattern>/ot_932_ago_main/solrFieldsNamesService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>pdStatisticsService</servlet-name>
+		<servlet-class>ru.ot.ot_132_5_0010.server.statistics.service.StatisticsServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pdStatisticsService</servlet-name>
+		<url-pattern>/ot_932_ago_main/pdStatisticsService</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>mapLayerService</servlet-name>
+		<url-pattern>/ot_932_ago_main/mapLayerService</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>mapLayerService</servlet-name>
+		<servlet-class>com.otoil.gis.ext.server.service.MapLayerServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>go-basket</servlet-name>
+		<url-pattern>/ot_932_ago_main/go-basket</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>go-basket</servlet-name>
+		<servlet-class>com.otoil.ot_135_2_0020.server.BasketServiceImpl</servlet-class>
+		<init-param>
+			<param-name>solr-query-decorators</param-name>
+			<param-value>
+				com.otoil.ot_135_2_0020.server.GOSubjectAreaQueryDecorator
+			</param-value>
+		</init-param>
+	</servlet>
+	<!-- End Библиотека -->
+
+	<servlet>
+		<servlet-name>quartzManagerService</servlet-name>
+		<servlet-class>com.otoil.ot_040_1_0080.server.RemoteQuartzManagerServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>quartzManagerService</servlet-name>
+		<url-pattern>/ot_932_ago_main/quartzManagerService</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>timeTableService</servlet-name>
+		<servlet-class>com.otoil.ot_040_1_0080.server.TimeTableServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>timeTableService</servlet-name>
+		<url-pattern>/ot_932_ago_main/timeTableService</url-pattern>
+	</servlet-mapping>
+
+
+
+	<session-config>
+		<session-timeout>720</session-timeout>
+	</session-config>
+
+	<filter>
+		<filter-name>gwtCacheControlFilter</filter-name>
+		<filter-class>ru.ot.gwt.utils.server.CacheControlFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>gwtCacheControlFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>CompressionFilter</filter-name>
+		<filter-class>ru.ot.gwt.utils.server.gzip.CompressionFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>CompressionFilter</filter-name>
+		<url-pattern>*.js</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>CompressionFilter</filter-name>
+		<url-pattern>*.css</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>CompressionFilter</filter-name>
+		<url-pattern>*.html</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>CompressionFilter</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>CompressionFilter</filter-name>
+		<url-pattern>/ot_932_ago_main/rest/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>WatchExecutionFilter</filter-name>
+		<filter-class>ru.ot.gwt.utils.server.WatchExecutionFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>WatchExecutionFilter</filter-name>
+		<url-pattern>/ot_932_ago_main/rest/*</url-pattern>
+	</filter-mapping>
+
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>OT_932_AGO_MinePro_Main.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>

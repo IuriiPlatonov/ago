@@ -1,0 +1,66 @@
+@def backgroundColor rgb(215, 215, 215);
+@def gradientColor rgb(238, 238, 238);
+@def lineColor rgb(200, 200, 200);
+@def topLineColor rgb(230, 230, 230);
+
+.titleBackground {
+	background-color: backgroundColor;
+}
+
+.fullMenuPanel, .shortMenuPanel {
+	background: backgroundColor; /* Old browsers */
+	background: -moz-linear-gradient(top, backgroundColor 0%, gradientColor 50%, backgroundColor 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, backgroundColor),
+		color-stop(50%, gradientColor), color-stop(100%, backgroundColor));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, backgroundColor 0%, gradientColor 50%, backgroundColor 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, backgroundColor 0%, gradientColor 50%, backgroundColor 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, backgroundColor 0%, gradientColor 50%, backgroundColor 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, backgroundColor 0%, gradientColor 50%, backgroundColor 100%);
+	/* W3C */
+    filter: literal("progid:DXImageTransform.Microsoft.gradient(
+        startColorstr='backgroundColor', endColorstr='backgroundColor', GradientType=0)"); /* IE6-9 */
+    -ms-filter: literal("progid:DXImageTransform.Microsoft.gradient(
+        startColorstr='backgroundColor', endColorstr='backgroundColor', GradientType=0)"); /* IE6-9 */
+}
+
+.fullMenuPanel .appPanel {
+	padding-left: 0px;
+}
+
+.shortSearchTextBox {
+	padding-top: 2px;
+}
+
+.shortSearchPanel {
+	border-bottom: 1px solid topLineColor;
+}
+
+.shortSearchPanel>div:FIRST-CHILD {
+	border-bottom: 1px solid lineColor;
+}
+
+.shortSearchPanel2 {
+	background: backgroundColor;
+}
+
+.rightPanel {
+	border-right-color: lineColor;
+}
+
+.bottomPanel {
+	border-top: 1px solid lineColor;
+}
+
+.trayPanel {
+	border-top: 1px solid topLineColor;
+	border-bottom: 1px solid lineColor;
+}
+
+.topLine tr:FIRST-CHILD>td {
+	border-top: 1px solid topLineColor;
+}
